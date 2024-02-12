@@ -1,0 +1,29 @@
+# Questions
+
+## Technical:
+* Is this project going to expand to include more tiles in the future (does it need to be scalable)?
+* How important is having an offline model? (Online models need internet connection to work)
+* In terms of requirements, do you have specific accuracy, speed, or ... in mind?
+* How do we deploy the model?
+* What are the preferences in UI or visualization of the models results (A website, mobile app, something else?)?
+* What resources are available? Any knowledge (people, books) or computing power available?
+
+## General:
+* What is the main problem?
+* Who are the main users of this system? (What are their technical skills?)
+* Has there been any attempts to do this project before? If yes, why did they fail?
+* What is the gold standard now when a rooftile needs to be categorized? (for example an expert builder?) What is their accuracy?
+* Are there any privacy or security concerns in this project?
+* What criteria will you use to measure the succes off the model?
+* What are the main challenges you want the model to address?
+* Is there a required workflow? (Scrum, waterfall, etc)
+* Should your help be needed, how do we meet?
+
+## Data:
+* How many images are available? In total, per type, how many types, how many brands?
+* Is it possible to get more images if needed?
+* Is it OK to have multiple pictures from the tile to predict its type? (front and back images together)
+* If we want to add additional pictures, what criteria do they need to adhere to?
+* what is the size, color and dimensions of the rooftile? Does this differ a lot?
+* How are the images currently labeled/annotated in the dataset?
+* What are the key differences we need to detect in the rooftiles?
