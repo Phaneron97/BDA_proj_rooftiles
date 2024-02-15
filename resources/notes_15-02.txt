@@ -1,0 +1,19 @@
+requirements
+## Frontend
+* app android
+* UX
+* expliciet vragen voor front en back
+* under threshold tell user that its probably not a rooftile
+##  backend
+* model that only learns rooftiles
+* calc things in front of tile (noise)
+* percentage calculation for each rooftile
+* color/size/letters
+* difference between front and back maybe learn
+* new model should easiliy be implemented
+* roughly same amount of images per rooftile available
+* Tilmann has testing dataset, no noise pictures
+* Make a new testing dataset (pick pictures without noise)
+* colors are always the same, no new testing data will include tiles with a different color
+* 
+1000 per tile, 500 front 500 back
