@@ -2,6 +2,8 @@ import cv2
 import os
 import matplotlib.pyplot as plt
 
+# test
+
 def detect_resolution(image_path):
     """
     Detect the resolution of an image.
