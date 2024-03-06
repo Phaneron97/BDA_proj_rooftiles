@@ -54,14 +54,13 @@ def resize_images_in_folder(read_folder_path, target_size, write_folder_path):
                 # Output the current image being processed
                 print(f"Processing image: {image_path}")
 
-                # Rescale the image by 0.25
                 original_image = cv2.imread(image_path)
+                # resize image to target size.
                 resized_image = cv2.resize(original_image, target_size)
 
-                # Save the rescaled image with the same filename
+                # Save the rescaled image with the new filename (in the new folder)
                 cv2.imwrite(write_path, resized_image)
 
-# Example usage:
 main_folder_path = "dataset_rooftile_small/"
 out_folder_path = "dataset_rooftile_640/"
 target_resolution = (640, 640)
