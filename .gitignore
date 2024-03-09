@@ -1,4 +1,7 @@
 code/data_analysis/dataset/
 code/data_analysis/rooftile_dataset_complete_rescaled/
-code/data_analysis/dataset_rooftile_small/
-code/data_analysis/dataset_rooftile_640/
+code/data_analysis/dataset_rooftile_small/**
+code/data_analysis/dataset_rooftile_640/**
+/code/data_analysis/dataset_rooftile_small/**
+*.JPG
+code/data_analysis/dataset_rooftile_small/d0002_b_nrd_g_VH/d0002_b_nrd_g_VH_1699026003_DSC00658.JPG
