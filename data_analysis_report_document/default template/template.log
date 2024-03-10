@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.13)  10 MAR 2024 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.13)  10 MAR 2024 22:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/School/BDA_Minor/BDA_proj_rooftiles/data_analysis_report_document/template.tex
-(d:/School/BDA_Minor/BDA_proj_rooftiles/data_analysis_report_document/template.tex
+**"d:/School/BDA_Minor/BDA_proj_rooftiles/data_analysis_report_document/default template/template.tex"
+(d:/School/BDA_Minor/BDA_proj_rooftiles/data_analysis_report_document/default template/template.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
 (CSSullivanBusinessReport.cls
@@ -658,11 +658,7 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
 )
 \@quotelevel=\count430
 \@quotereset=\count431
- (template.aux
-
-LaTeX Warning: Label `fig:rescale_res_result' multiply defined.
-
-)
+ (template.aux)
 \openout1 = `template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -765,25 +761,38 @@ Package biblatex Info: ... file 'template.bbl' found.
 Package biblatex Info: Reference section=0 on input line 45.
 Package biblatex Info: Reference segment=0 on input line 45.
 Package hyperref Info: Link coloring ON on input line 45.
- (template.out) (template.out)
 \@outlinefile=\write4
 \openout4 = `template.out'.
 
 \c@lstlisting=\count440
 
 
-pdfTeX warning: pdflatex (file ./Images/inhollandlogo.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/inhollandlogo.pdf, id=71, 582.10222pt x 421.52231pt>
-File: Images/inhollandlogo.pdf Graphic file (type pdf)
-<use Images/inhollandlogo.pdf>
-Package pdftex.def Info: Images/inhollandlogo.pdf  used on input line 56.
-(pdftex.def)             Requested size: 142.26378pt x 103.0198pt.
+LaTeX Warning: File `inhollandlogo.png' not found on input line 56.
+
+
+d:/School/BDA_Minor/BDA_proj_rooftiles/data_analysis_report_document/default template/template.tex:56: Package pdftex.def Error: File `inhollandlogo.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 ...ludegraphics[width=5cm]{inhollandlogo.png}
+                                                   % Company logo
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for T1+IBMPlexMono-TLF on input line 56.
+(C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/plex\t1ibmplexmono-tlf.fd
+File: T1IBMPlexMono-TLF.fd 2023/09/30 (autoinst) Font definitions for T1/IBMPlexMono-TLF.
+)
+LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 56.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
 (Font)              scaled to size 50.0pt on input line 60.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
 (Font)              scaled to size 50.0pt on input line 60.
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 60.
-(C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ppl.fd
+ (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 60.
@@ -814,141 +823,217 @@ LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 72.
  [1
 
-{C:/Users/Christian/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/plex/plx_gmchnq.enc} <./Images/inhollandlogo.pdf>]
+{C:/Users/Christian/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/plex/plx_i3ioen.enc}{C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/plex/plx_gmchnq.enc}]
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 84.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 86.
+LaTeX Font Info:    Trying to load font information for TS1+IBMPlexSans-TLF on input line 92.
+ (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/plex\ts1ibmplexsans-tlf.fd
+File: TS1IBMPlexSans-TLF.fd 2023/09/30 (autoinst) Font definitions for TS1/IBMPlexSans-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/IBMPlexSans-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 92.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 108.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 108.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 110.
+ [2{C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/plex/plx_3xjvyq.enc}]
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
 (Font)              scaled to size 20.74pt on input line 128.
- (template.toc
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/sb/n' will be
-(Font)              scaled to size 12.0pt on input line 1.
-)
+
+No file template.toc.
 \tf@toc=\write5
 \openout5 = `template.toc'.
 
- [2] (hoofdstukken/visualizations.tex
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 5.
+<Images/creodocs_logo.pdf, id=17, 833.50496pt x 170.09146pt>
+File: Images/creodocs_logo.pdf Graphic file (type pdf)
+<use Images/creodocs_logo.pdf>
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 131.
+(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 131.
+
+[3 <./Images/creodocs_logo.pdf>]
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 7.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 7.
-<Images/average_color_histogram.png, id=121, 867.24pt x 289.08pt>
-File: Images/average_color_histogram.png Graphic file (type png)
-<use Images/average_color_histogram.png>
-Package pdftex.def Info: Images/average_color_histogram.png  used on input line 10.
-(pdftex.def)             Requested size: 334.3199pt x 111.4395pt.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 11.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 11.
-Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 16.
-Package marginnote Info: right page because not two side mode on input line 16.
-Package marginnote Info: xpos seems to be 62.8055pt on input line 16.
-<Images/aspect_ratio_result.png, id=123, 722.7pt x 433.62pt>
-File: Images/aspect_ratio_result.png Graphic file (type png)
-<use Images/aspect_ratio_result.png>
-Package pdftex.def Info: Images/aspect_ratio_result.png  used on input line 19.
-(pdftex.def)             Requested size: 334.3199pt x 200.59242pt.
-File: Images/inhollandlogo.pdf Graphic file (type pdf)
-<use Images/inhollandlogo.pdf>
-Package pdftex.def Info: Images/inhollandlogo.pdf  used on input line 24.
-(pdftex.def)             Requested size: 56.9055pt x 41.20277pt.
-
-
-Package fancyhdr Warning: \headheight is too small (28.45274pt): 
-(fancyhdr)                Make it at least 45.55281pt, for example:
-(fancyhdr)                \setlength{\headheight}{45.55281pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
-
-[3 <./Images/average_color_histogram.png> <./Images/aspect_ratio_result.png>]
-<Images/rescale_res_result.png, id=136, 867.24pt x 433.62pt>
-File: Images/rescale_res_result.png Graphic file (type png)
-<use Images/rescale_res_result.png>
-Package pdftex.def Info: Images/rescale_res_result.png  used on input line 40.
-(pdftex.def)             Requested size: 334.3199pt x 167.15924pt.
-) (hoofdstukken/changes.tex
-File: Images/inhollandlogo.pdf Graphic file (type pdf)
-<use Images/inhollandlogo.pdf>
-Package pdftex.def Info: Images/inhollandlogo.pdf  used on input line 10.
-(pdftex.def)             Requested size: 56.9055pt x 41.20277pt.
-
-
-Package fancyhdr Warning: \headheight is too small (28.45274pt): 
-(fancyhdr)                Make it at least 45.55281pt, for example:
-(fancyhdr)                \setlength{\headheight}{45.55281pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
-
-[4 <./Images/rescale_res_result.png>]
-<Images/square_dataset/square1.JPG, id=147, 642.4pt x 642.4pt>
-File: Images/square_dataset/square1.JPG Graphic file (type jpg)
-<use Images/square_dataset/square1.JPG>
-Package pdftex.def Info: Images/square_dataset/square1.JPG  used on input line 23.
-(pdftex.def)             Requested size: 334.3199pt x 334.32439pt.
-File: Images/inhollandlogo.pdf Graphic file (type pdf)
-<use Images/inhollandlogo.pdf>
-Package pdftex.def Info: Images/inhollandlogo.pdf  used on input line 42.
-(pdftex.def)             Requested size: 56.9055pt x 41.20277pt.
-
-
-Package fancyhdr Warning: \headheight is too small (28.45274pt): 
-(fancyhdr)                Make it at least 45.55281pt, for example:
-(fancyhdr)                \setlength{\headheight}{45.55281pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
-
-[5 <./Images/square_dataset/square1.JPG>]
-Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 43.
-Package marginnote Info: right page because not two side mode on input line 43.
-Package marginnote Info: xpos seems to be 122.6974pt on input line 43.
-File: Images/inhollandlogo.pdf Graphic file (type pdf)
-<use Images/inhollandlogo.pdf>
-Package pdftex.def Info: Images/inhollandlogo.pdf  used on input line 51.
-(pdftex.def)             Requested size: 56.9055pt x 41.20277pt.
-
-
-Package fancyhdr Warning: \headheight is too small (28.45274pt): 
-(fancyhdr)                Make it at least 45.55281pt, for example:
-(fancyhdr)                \setlength{\headheight}{45.55281pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
-
-[6]
+(Font)              scaled to size 9.0pt on input line 139.
+Package marginnote Info: right page because not two side mode on input line 141.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 141.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 54.
-Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 67.
-Package marginnote Info: right page because not two side mode on input line 67.
-Package marginnote Info: xpos seems to be 358.56085pt on input line 67.
-File: Images/inhollandlogo.pdf Graphic file (type pdf)
-<use Images/inhollandlogo.pdf>
-Package pdftex.def Info: Images/inhollandlogo.pdf  used on input line 81.
-(pdftex.def)             Requested size: 56.9055pt x 41.20277pt.
+(Font)              scaled to size 12.0pt on input line 152.
+File: Images/creodocs_logo.pdf Graphic file (type pdf)
+<use Images/creodocs_logo.pdf>
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 156.
+(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
 
 
-Package fancyhdr Warning: \headheight is too small (28.45274pt): 
-(fancyhdr)                Make it at least 45.55281pt, for example:
-(fancyhdr)                \setlength{\headheight}{45.55281pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 156.
 
-[7]
+[4]
+Package marginnote Info: right page because not two side mode on input line 165.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 165.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 183.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 183.
+Package marginnote Info: right page because not two side mode on input line 184.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 184.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
+(Font)              scaled to size 24.88pt on input line 185.
+File: Images/creodocs_logo.pdf Graphic file (type pdf)
+<use Images/creodocs_logo.pdf>
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 190.
+(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
 
-LaTeX Warning: Reference `fig:example' on page 8 undefined on input line 83.
 
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 190.
+
+[5]
+LaTeX Font Info:    Trying to load font information for T1+IBMPlexSerif-TLF on input line 191.
+ (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/plex\t1ibmplexserif-tlf.fd
+File: T1IBMPlexSerif-TLF.fd 2023/09/30 (autoinst) Font definitions for T1/IBMPlexSerif-TLF.
 )
-File: Images/inhollandlogo.pdf Graphic file (type pdf)
-<use Images/inhollandlogo.pdf>
-Package pdftex.def Info: Images/inhollandlogo.pdf  used on input line 141.
-(pdftex.def)             Requested size: 56.9055pt x 41.20277pt.
+LaTeX Font Info:    Font shape `T1/IBMPlexSerif-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 191.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/el/n' will be
+(Font)              scaled to size 12.0pt on input line 197.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/l/n' will be
+(Font)              scaled to size 12.0pt on input line 197.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/sb/n' will be
+(Font)              scaled to size 12.0pt on input line 197.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/c/n' will be
+(Font)              scaled to size 12.0pt on input line 203.
+Package marginnote Info: right page because not two side mode on input line 211.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 211.
+LaTeX Font Info:    Font shape `T1/IBMPlexSerif-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 211.
+LaTeX Font Info:    Font shape `T1/IBMPlexSerif-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 211.
+LaTeX Font Info:    Font shape `T1/IBMPlexSerif-TLF/b/it' will be
+(Font)              scaled to size 10.0pt on input line 211.
+LaTeX Font Info:    Font shape `T1/IBMPlexSerif-TLF/b/it' will be
+(Font)              scaled to size 20.74pt on input line 211.
+LaTeX Font Info:    Font shape `T1/IBMPlexSerif-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 213.
+LaTeX Font Info:    Font shape `T1/IBMPlexSerif-TLF/b/it' will be
+(Font)              scaled to size 12.0pt on input line 214.
 
 
-Package fancyhdr Warning: \headheight is too small (28.45274pt): 
-(fancyhdr)                Make it at least 45.55281pt, for example:
-(fancyhdr)                \setlength{\headheight}{45.55281pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
+LaTeX Warning: Reference `tab:example' on page 6 undefined on input line 227.
 
-[8] 
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 233.
+File: Images/creodocs_logo.pdf Graphic file (type pdf)
+<use Images/creodocs_logo.pdf>
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 244.
+(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 244.
+
+[6{C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/plex/plx_umrhwx.enc}]
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 249.
+
+
+LaTeX Warning: Reference `fig:example' on page 7 undefined on input line 289.
+
+<Images/placeholder.jpg, id=65, 351.3125pt x 193.72375pt>
+File: Images/placeholder.jpg Graphic file (type jpg)
+<use Images/placeholder.jpg>
+Package pdftex.def Info: Images/placeholder.jpg  used on input line 294.
+(pdftex.def)             Requested size: 120.92421pt x 66.68105pt.
+<Images/ARR.pdf, id=66, 1371.1225pt x 469.755pt>
+File: Images/ARR.pdf Graphic file (type pdf)
+<use Images/ARR.pdf>
+Package pdftex.def Info: Images/ARR.pdf  used on input line 301.
+(pdftex.def)             Requested size: 334.3199pt x 114.53546pt.
+File: Images/ARR.pdf Graphic file (type pdf)
+<use Images/ARR.pdf>
+Package pdftex.def Info: Images/ARR.pdf  used on input line 309.
+(pdftex.def)             Requested size: 483.69685pt x 165.7141pt.
+File: Images/creodocs_logo.pdf Graphic file (type pdf)
+<use Images/creodocs_logo.pdf>
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 311.
+(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 311.
+
+[7 <./Images/placeholder.jpg> <./Images/ARR.pdf>]
+LaTeX Font Info:    Font shape `TS1/IBMPlexSans-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 321.
+Package marginnote Info: right page because not two side mode on input line 344.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 344.
+File: Images/creodocs_logo.pdf Graphic file (type pdf)
+<use Images/creodocs_logo.pdf>
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 349.
+(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 349.
+
+[8]
+File: Images/creodocs_logo.pdf Graphic file (type pdf)
+<use Images/creodocs_logo.pdf>
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 391.
+(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 391.
+
+[9]
+Package marginnote Info: right page because not two side mode on input line 393.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 393.
+Package marginnote Info: right page because not two side mode on input line 395.
+Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 395.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 395.
+LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 395.
+
+
+LaTeX Warning: Reference `eq:example' on page 10 undefined on input line 422.
+
+File: Images/creodocs_logo.pdf Graphic file (type pdf)
+<use Images/creodocs_logo.pdf>
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 444.
+(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 444.
+
+[10{C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 444.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/it' will be
+(Font)              scaled to size 6.0pt on input line 445.
+File: Images/creodocs_logo.pdf Graphic file (type pdf)
+<use Images/creodocs_logo.pdf>
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 467.
+(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 467.
+
+[11]
+File: Images/creodocs_logo.pdf Graphic file (type pdf)
+<use Images/creodocs_logo.pdf>
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 479.
+(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 479.
+
+[12]
+File: Images/creodocs_logo.pdf Graphic file (type pdf)
+<use Images/creodocs_logo.pdf>
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 501.
+(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 501.
+
+[13] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (template.aux)
  ***********
@@ -960,26 +1045,40 @@ L3 programming layer <2023-10-10>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 1D15B9D1530DA5C2B7497A50DC62CCC2;2931.
+
+Package rerunfilecheck Warning: File `template.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `template.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  5F05D673B0DF827CE4DD8956CCF896A5;3346.
+
+Package lastpage Warning: Rerun to get the references right on input line 501.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                template
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'template.run.xml'.
 \openout1 = `template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22469 strings out of 474823
- 400709 string characters out of 5749067
- 1936043 words of memory out of 5000000
- 44046 multiletter control sequences out of 15000+600000
- 767657 words of font info for 83 fonts, out of 8000000 for 9000
+ 23423 strings out of 474823
+ 419538 string characters out of 5749067
+ 1984043 words of memory out of 5000000
+ 44926 multiletter control sequences out of 15000+600000
+ 1035937 words of font info for 161 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,15n,107p,946b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-Bold.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-BoldItalic.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-Italic.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-SmBld.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans.pfb>
-Output written on template.pdf (8 pages, 442922 bytes).
+ 94i,16n,107p,932b,1841s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxMono.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-Bold.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-BoldItalic.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-ExtLt.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-Italic.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-Light.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-SmBld.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSansCond.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSerif-BoldItalic.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSerif-Italic.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSerif-Regular.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on template.pdf (13 pages, 509877 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

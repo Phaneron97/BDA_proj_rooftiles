@@ -1,4 +1,4 @@
-\contentsline {section}{\numberline {1}visualizations of Dataset}{3}{section.1}%
+\contentsline {section}{\numberline {1}Visualizations of Dataset}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}BGR channels of original dataset}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Visualizing aspect ratios}{3}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Visualizing resolutions}{4}{subsection.1.3}%
