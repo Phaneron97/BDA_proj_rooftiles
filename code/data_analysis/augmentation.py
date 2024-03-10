@@ -1,32 +1,51 @@
-import cv2
 import os
-import Augmentor
+import cv2
+import hashlib
 
-# The method / function for perfoming Image augmentation. The num_samples is the amount of samples it'll make. 
-def perform_image_augmentation(input_path, output_path, num_samples=5):
-    # Create an Augmentor Pipeline
-    image = Augmentor.Pipeline(input_path, output_directory=output_path)
+def perform_image_augmentation(input_path, output_path, num_samples):
+    # Create the output directory if it doesn't exist
+    output_directory = os.path.join(output_path, "augmented_images")
+    os.makedirs(output_directory, exist_ok=True)
 
-    # Define augmentation operations with configurable parameters
-    image.flip_left_right(probability=0.5)
-    # image.black_and_white(probability=0.1)
-    image.rotate(probability=0.3, max_left_rotation=10, max_right_rotation=10)
-    # image.skew(probability=0.4, magnitude=0.5)
-    image.zoom(probability=0.2, min_factor=1.1, max_factor=1.5)
+    # Get a list of all image files recursively in the input directory
+    image_files = [os.path.join(root, f) for root, dirs, files in os.walk(input_path) for f in files if f.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp'))]
+    # Keep track of processed images to avoid duplicates
+    processed_images = set()
 
-    # Add a resize operation to ensure a fixed ratio of 640x640
-    image.resize(1, width=640, height=640)
+    # Loop through each image and perform augmentation
+    for image_file in image_files:
+        # Check if the image has already been processed
+        image_hash = hashlib.md5(image_file.encode()).hexdigest()
+        if image_hash in processed_images:
+            continue
 
-    # Perform augmentation and generate sample images.
-    image.sample(num_samples)
+        # Read the input image using OpenCV
+        original_image = cv2.imread(image_file)
+
+        # Define augmentation operations with configurable parameters
+        augmented_images = [original_image.copy() for _ in range(num_samples)]
+        for i in range(num_samples):
+            # Add your augmentation operations here
+            augmented_images[i] = cv2.flip(augmented_images[i], 1)  # Horizontal flip
+
+        # Save augmented images under the same subdirectory as the original image
+        output_subdirectory = os.path.join(output_directory, os.path.basename(os.path.dirname(image_file)))
+        os.makedirs(output_subdirectory, exist_ok=True)
+
+        for i, augmented_image in enumerate(augmented_images):
+            output_file_path = os.path.join(output_subdirectory, f"{os.path.basename(image_file).split('.')[0]}.jpg")
+            cv2.imwrite(output_file_path, augmented_image)
+
+        # Add the processed image hash to the set
+        processed_images.add(image_hash)
 
 if __name__ == "__main__":
-    input_directory = 'dataset_mini' # I'm using the mini dataset for testing.
-    output_directory = 'augmented_dataset' # This will be the folder name of where the sample images are saved.
-    num_samples_to_generate = 5 # Amount of Sample Images. 
+    input_directory = 'dataset_mini'
+    output_directory = 'dataset_mini'
+    num_samples_to_generate = 1
 
     try:
         perform_image_augmentation(input_directory, output_directory, num_samples_to_generate)
-        print(f"Image augmentation completed successfully. Augmented images saved in '{output_directory}'.")
+        print(f"Image augmentation completed successfully. Augmented images saved in '{output_directory}/augmented_images'.")
     except Exception as e:
         print(f"Error during image augmentation: {e}")
