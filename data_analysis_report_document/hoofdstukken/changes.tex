@@ -1,16 +1,29 @@
 \section{Changes to Dataset} % Top level section
+We need to change some properties to prepare the dataset before feeding it to a model. 
 
 \subsection{Updates to resolution}
-
-\subsection{Updates to aspect ratio}
+As we mentioned earlier, we decreased the resolution of all images in the whole dataset to make it more manageable. See \ref{fig:rescale_res_result}.
 
 \subsection{File extension formatting}
+\begin{fullwidth}
+Most images were of .JPG format and some of .JPEG and .PNG format. To make all these images the same file format we chose to convert them all to the PNG format. 
+\end{fullwidth}
+
 
 \subsection{Applying grayscale}
 
 \subsection{Applying normalization}
 
 \subsection{Applying CLAHE}
+
+\subsection{Updates to aspect ratio}
+
+\sidenote{}
+\begin{figure}[H] % [H] forces the figure to be output where it is defined in the code (it suppresses floating)
+	\includegraphics[width=\linewidth]{square_dataset/square1.JPG}
+	\caption{Resolutions of images before \& after}
+	\label{fig:rescale_res_result} % Label for referencing this figure in the text automatically
+\end{figure}
 
 \subsection{Data augmentation}
 
@@ -71,24 +84,24 @@ This statement automatically references the figure below using its label: Figure
 
 %------------------------------------------------
 
-\begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
-	\includegraphics[width=\linewidth]{placeholder.jpg}
-	\caption{Margin figure caption.}
-\end{marginfigure}
+% \begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
+% 	\includegraphics[width=\linewidth]{placeholder.jpg}
+% 	\caption{Margin figure caption.}
+% \end{marginfigure}
 
-%------------------------------------------------
+% %------------------------------------------------
 
-\begin{figure}[H] % [H] forces the figure to be output where it is defined in the code (it suppresses floating)
-	\includegraphics[width=\linewidth]{ARR.pdf}
-	\caption{Text block figure caption.}
-	\label{fig:example} % Label for referencing this figure in the text automatically
-\end{figure}
+% \begin{figure}[H] % [H] forces the figure to be output where it is defined in the code (it suppresses floating)
+% 	\includegraphics[width=\linewidth]{ARR.pdf}
+% 	\caption{Text block figure caption.}
+% 	\label{fig:example} % Label for referencing this figure in the text automatically
+% \end{figure}
 
-%------------------------------------------------
+% %------------------------------------------------
 
-\begin{figure*} % Use the figure* environment for full width figures
-	\includegraphics[width=\linewidth]{ARR.pdf}
-	\caption{Full width figure caption.}
-\end{figure*}
+% \begin{figure*} % Use the figure* environment for full width figures
+% 	\includegraphics[width=\linewidth]{ARR.pdf}
+% 	\caption{Full width figure caption.}
+% \end{figure*}
 
 %----------------------------------------------------------------------------------------

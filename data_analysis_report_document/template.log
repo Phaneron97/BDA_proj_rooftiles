@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.13)  10 MAR 2024 21:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.13)  10 MAR 2024 21:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -658,7 +658,11 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
 )
 \@quotelevel=\count430
 \@quotereset=\count431
- (template.aux)
+ (template.aux
+
+LaTeX Warning: Label `fig:rescale_res_result' multiply defined.
+
+)
 \openout1 = `template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -808,23 +812,6 @@ LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
  [1
 
 {C:/Users/Christian/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/plex/plx_gmchnq.enc} <./Images/creodocs_logo.pdf>]
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 84.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 86.
-LaTeX Font Info:    Trying to load font information for TS1+IBMPlexSans-TLF on input line 92.
- (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/plex\ts1ibmplexsans-tlf.fd
-File: TS1IBMPlexSans-TLF.fd 2023/09/30 (autoinst) Font definitions for TS1/IBMPlexSans-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/IBMPlexSans-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 92.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 108.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 108.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 110.
- [2{C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/plex/plx_3xjvyq.enc}]
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
 (Font)              scaled to size 20.74pt on input line 128.
  (template.toc
@@ -834,84 +821,114 @@ LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/sb/n' will be
 \tf@toc=\write5
 \openout5 = `template.toc'.
 
-File: Images/creodocs_logo.pdf Graphic file (type pdf)
-<use Images/creodocs_logo.pdf>
-Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 131.
-(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
- [3] (hoofdstukken/visualizations.tex) (hoofdstukken/changes.tex
+ [2] (hoofdstukken/visualizations.tex
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 5.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 28.
+(Font)              scaled to size 9.0pt on input line 7.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 7.
+<Images/average_color_histogram.png, id=127, 867.24pt x 289.08pt>
+File: Images/average_color_histogram.png Graphic file (type png)
+<use Images/average_color_histogram.png>
+Package pdftex.def Info: Images/average_color_histogram.png  used on input line 10.
+(pdftex.def)             Requested size: 334.3199pt x 111.4395pt.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 11.
+LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 11.
+Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 16.
+Package marginnote Info: right page because not two side mode on input line 16.
+Package marginnote Info: xpos seems to be 62.8055pt on input line 16.
+<Images/aspect_ratio_result.png, id=129, 722.7pt x 433.62pt>
+File: Images/aspect_ratio_result.png Graphic file (type png)
+<use Images/aspect_ratio_result.png>
+Package pdftex.def Info: Images/aspect_ratio_result.png  used on input line 19.
+(pdftex.def)             Requested size: 334.3199pt x 200.59242pt.
 File: Images/creodocs_logo.pdf Graphic file (type pdf)
 <use Images/creodocs_logo.pdf>
-Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 29.
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 24.
 (pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
- [4]
-Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 30.
-Package marginnote Info: right page because not two side mode on input line 30.
-Package marginnote Info: xpos seems to be 122.6974pt on input line 30.
+ [3 <./Images/average_color_histogram.png> <./Images/aspect_ratio_result.png>]
+<Images/rescale_res_result.png, id=142, 867.24pt x 433.62pt>
+File: Images/rescale_res_result.png Graphic file (type png)
+<use Images/rescale_res_result.png>
+Package pdftex.def Info: Images/rescale_res_result.png  used on input line 40.
+(pdftex.def)             Requested size: 334.3199pt x 167.15924pt.
+) (hoofdstukken/changes.tex
+File: Images/creodocs_logo.pdf Graphic file (type pdf)
+<use Images/creodocs_logo.pdf>
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 10.
+(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
+ [4 <./Images/rescale_res_result.png>]
+<Images/square_dataset/square1.JPG, id=153, 642.4pt x 642.4pt>
+File: Images/square_dataset/square1.JPG Graphic file (type jpg)
+<use Images/square_dataset/square1.JPG>
+Package pdftex.def Info: Images/square_dataset/square1.JPG  used on input line 23.
+(pdftex.def)             Requested size: 334.3199pt x 334.32439pt.
+File: Images/creodocs_logo.pdf Graphic file (type pdf)
+<use Images/creodocs_logo.pdf>
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 42.
+(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
+ [5 <./Images/square_dataset/square1.JPG>]
+Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 43.
+Package marginnote Info: right page because not two side mode on input line 43.
+Package marginnote Info: xpos seems to be 122.6974pt on input line 43.
+File: Images/creodocs_logo.pdf Graphic file (type pdf)
+<use Images/creodocs_logo.pdf>
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 51.
+(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
+ [6]
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 41.
+(Font)              scaled to size 12.0pt on input line 54.
+Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 67.
+Package marginnote Info: right page because not two side mode on input line 67.
+Package marginnote Info: xpos seems to be 358.56085pt on input line 67.
 File: Images/creodocs_logo.pdf Graphic file (type pdf)
 <use Images/creodocs_logo.pdf>
-Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 49.
+Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 81.
 (pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
- [5]
-Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 54.
-Package marginnote Info: right page because not two side mode on input line 54.
-Package marginnote Info: xpos seems to be 358.56085pt on input line 54.
-<Images/placeholder.jpg, id=155, 351.3125pt x 193.72375pt>
-File: Images/placeholder.jpg Graphic file (type jpg)
-<use Images/placeholder.jpg>
-Package pdftex.def Info: Images/placeholder.jpg  used on input line 75.
-(pdftex.def)             Requested size: 120.92421pt x 66.68105pt.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 76.
-<Images/ARR.pdf, id=156, 1371.1225pt x 469.755pt>
-File: Images/ARR.pdf Graphic file (type pdf)
-<use Images/ARR.pdf>
-Package pdftex.def Info: Images/ARR.pdf  used on input line 82.
-(pdftex.def)             Requested size: 334.3199pt x 114.53546pt.
-LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 83.
-File: Images/ARR.pdf Graphic file (type pdf)
-<use Images/ARR.pdf>
-Package pdftex.def Info: Images/ARR.pdf  used on input line 90.
-(pdftex.def)             Requested size: 483.69685pt x 165.7141pt.
+ [7]
+
+LaTeX Warning: Reference `fig:example' on page 8 undefined on input line 83.
+
 )
 File: Images/creodocs_logo.pdf Graphic file (type pdf)
 <use Images/creodocs_logo.pdf>
 Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 141.
 (pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
- [6 <./Images/placeholder.jpg> <./Images/ARR.pdf>]
-File: Images/creodocs_logo.pdf Graphic file (type pdf)
-<use Images/creodocs_logo.pdf>
-Package pdftex.def Info: Images/creodocs_logo.pdf  used on input line 141.
-(pdftex.def)             Requested size: 85.35826pt x 17.4176pt.
- [7] 
+ [8] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (template.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 5043DE993EDB5B93510BFEFAA2F1071C;2931.
+(rerunfilecheck)             Checksum: 26D0F413724112B465EE73A6C1D10829;2931.
 Package logreq Info: Writing requests to 'template.run.xml'.
 \openout1 = `template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22614 strings out of 474823
- 404647 string characters out of 5749067
+ 22469 strings out of 474823
+ 400709 string characters out of 5749067
  1936043 words of memory out of 5000000
- 44188 multiletter control sequences out of 15000+600000
- 810918 words of font info for 106 fonts, out of 8000000 for 9000
+ 44046 multiletter control sequences out of 15000+600000
+ 767657 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,15n,107p,946b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-Bold.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-BoldItalic.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-Italic.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-SmBld.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans.pfb>
-Output written on template.pdf (7 pages, 236116 bytes).
+Output written on template.pdf (8 pages, 420672 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 223 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
