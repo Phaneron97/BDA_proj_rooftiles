@@ -1,55 +1,52 @@
 import os
 import cv2
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
-def load_and_process_images(folder_path):
-    """
-    Load and process all images within a folder and its subfolders efficiently.
+def calculate_average_histogram(folder_path):
+    # List all image files (including subdirectories) in the folder
+    image_files = [os.path.join(root, f) for root, dirs, files in os.walk(folder_path) for f in files if f.lower().endswith('.png')]
 
-    Parameters:
-    - folder_path: Path to the main folder.
+    if not image_files:
+        print("No PNG files found in the specified folder and its subdirectories.")
+        return
 
-    Returns:
-    - List of flattened RGB arrays for each image.
-    """
-    rgb_values = []
+    # Initialize variables to accumulate histograms
+    total_hist_blue = np.zeros((256, 1))
+    total_hist_green = np.zeros((256, 1))
+    total_hist_red = np.zeros((256, 1))
 
-    # Traverse through all subdirectories and their files
-    for root, dirs, files in os.walk(folder_path):
-        for file in files:
-            # Construct the full path to each image
-            image_path = os.path.join(root, file)
+    # Calculate total histograms
+    for image_file in image_files:
+        print("current image_file", image_file)
+        img = cv2.imread(image_file)
+        img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        hist_blue = cv2.calcHist([img_rgb], [0], None, [256], [0, 256])
+        hist_green = cv2.calcHist([img_rgb], [1], None, [256], [0, 256])
+        hist_red = cv2.calcHist([img_rgb], [2], None, [256], [0, 256])
 
-            # Load image with the IMREAD_UNCHANGED flag to preserve alpha channel
-            image = cv2.imread(image_path, cv2.IMREAD_UNCHANGED)
+        total_hist_blue += hist_blue
+        total_hist_green += hist_green
+        total_hist_red += hist_red
 
-            if image is not None:
-                # Extract RGB values
-                if image.shape[2] == 3:  # Check if image has 3 channels (RGB)
-                    image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-                    rgb_values.append(image_rgb.reshape(-1, 3))
+    # Calculate average histograms
+    avg_hist_blue = total_hist_blue / len(image_files)
+    avg_hist_green = total_hist_green / len(image_files)
+    avg_hist_red = total_hist_red / len(image_files)
 
-    return np.vstack(rgb_values)
+    # Plot average histograms on the same axes
+    plt.figure(figsize=(8, 5))
 
-def plot_rgb_values(rgb_values):
-    """
-    Plot RGB values using matplotlib.
+    plt.plot(avg_hist_blue, color='blue', label='Blue Channel')
+    plt.plot(avg_hist_green, color='green', label='Green Channel')
+    plt.plot(avg_hist_red, color='red', label='Red Channel')
 
-    Parameters:
-    - rgb_values: List of RGB values.
-    """
-    plt.figure(figsize=(10, 6))
-
-    # Scatter plot for RGB values
-    plt.scatter(rgb_values[:, 0], rgb_values[:, 1], c=rgb_values / 255.0, marker='o', s=5)
-    plt.title('RGB Values of Images')
-    plt.xlabel('Red')
-    plt.ylabel('Green')
-
+    plt.title('Average Color Histograms for All Images')
+    plt.xlabel('Pixel Intensity')
+    plt.ylabel('Normalized Frequency')
+    plt.legend()
     plt.show()
 
-# Example usage:
-main_folder_path = "dataset_mini/"
-rgb_values = load_and_process_images(main_folder_path)
-plot_rgb_values(rgb_values)
+# Replace "/path/to/your/folder" with the actual path to your image folder
+folder_path = "dataset_mini"
+calculate_average_histogram(folder_path)
