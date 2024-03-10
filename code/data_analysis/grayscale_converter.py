@@ -59,16 +59,10 @@ def convert_images_to_grayscale(folder_path):
                 grayscale_img = convert_to_grayscale(img)
                 grayscale_imgs.append(grayscale_img)
 
-                # Construct the output path by replacing the extension with _gray.png
-                output_path = os.path.splitext(folder_path)[0] + '_gray.png'
-
                 # Save the grayscale image, overwriting the existing file
-                cv2.imwrite(output_path, grayscale_img)
+                cv2.imwrite(folder_path, grayscale_img)
 
-                print(f"Converted: {folder_path} -> {output_path}")
-
-                # Remove the old PNG image
-                os.remove(folder_path)
+                print(f"Converted: {folder_path} -> {folder_path}")
     return grayscale_imgs
 
 def get_images_in_folder(folder_path):
