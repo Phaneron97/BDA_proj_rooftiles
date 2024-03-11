@@ -37,6 +37,7 @@
 %----------------------------------------------------------------------------------------
 
 \usepackage{graphicx} % Required for including images
+\usepackage{subcaption} % for using subfigures
 \graphicspath{{Images/}{./}} % Specifies where to look for included images (trailing slash required)
 
 \setlength{\parindent}{0pt} % Paragraph indentation
