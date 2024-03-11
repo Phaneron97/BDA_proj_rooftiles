@@ -2,30 +2,67 @@
 We need to change some properties to prepare the dataset before feeding it to a model. 
 
 \subsection{Updates to resolution}
-As we mentioned earlier, we decreased the resolution of all images in the whole dataset to make it more manageable. See \ref{fig:rescale_res_result}.
+As we mentioned earlier, we decreased the resolution of all images in the whole dataset to make it more manageable. 
+See \ref{fig:rescale_res_result}.
 
 \subsection{File extension formatting}
 \begin{fullwidth}
 Most images were of .JPG format and some of .JPEG and .PNG format. To make all these images the same file format we chose to convert them all to the PNG format. 
 \end{fullwidth}
 
-
 \subsection{Applying grayscale}
+\sidenote{We need to apply a grayscale effect to remove the BGR-channels currently present in the image. 
+The image contains colours which might interfere with classification and makes it harder to bring out the details.
+Applying Grayscale makes sure those details are easier to bring out in the next preprocessing techniques.}
+\begin{figure}[H] % [H] forces the figure to be output where it is defined in the code (it suppresses floating)
+	\includegraphics[width=\linewidth]{grayscale_graph_histogram.JPG}
+	\caption{Resolutions of images before \& after}
+	\label{fig:grayscale_graph_histogram} % Label for referencing this figure in the text automatically
+\end{figure}test
+
 
 \subsection{Applying normalization}
+\sidenote{After grayscaling, normalization needs to be applied to normalize contrast. 
+Doing this removes some glare or extreme lighting effects caused by the camera lens.}
 
 \subsection{Applying CLAHE}
+\sidenote{Lastly, CLAHE is applied to bring out more details. 
+CLAHE does this to dampen some of the higher pixel values and placing them below the average threshold, so that details appear more sharp.
+}
 
 \subsection{Updates to aspect ratio}
+Since most image recognition models require the images in the dataset to be of square format, 
+we came up with a technique to make non-square images square. 
+his is done by placing padding with a random color around the image to fill up the blank space required to make it square. 
+After this a new resolution is immediately applied of 640*640 pixels.
+This resolution is required by most YOLO-models which could be used as the main algorithm classifying the rooftiles. 
+To the side are a few examples of images converted to a square aspect ratio.
 
-\sidenote{}
-\begin{figure}[H] % [H] forces the figure to be output where it is defined in the code (it suppresses floating)
+\begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
 	\includegraphics[width=\linewidth]{square_dataset/square1.JPG}
-	\caption{Resolutions of images before \& after}
-	\label{fig:rescale_res_result} % Label for referencing this figure in the text automatically
-\end{figure}
+	\caption{image with square aspect ratio #1}
+\end{marginfigure}
+
+\begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
+	\includegraphics[width=\linewidth]{square_dataset/square2.JPG}
+	\caption{image with square aspect ratio #2}
+\end{marginfigure}
+
+\begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
+	\includegraphics[width=\linewidth]{square_dataset/square3.JPG}
+	\caption{image with square aspect ratio #3}
+\end{marginfigure}
+
+\begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
+	\includegraphics[width=\linewidth]{square_dataset/square4.JPG}
+	\caption{image with square aspect ratio #4}
+\end{marginfigure}
 
 \subsection{Data augmentation}
+A few augmentation techniques are applied to artificially increase the dataset and training data. 
+It's important to realize that this is just done for training and not testing, 
+since testing requires the images to be as closely to the real world as possible. 
+Below are a few simple techniques which can be applied to any image in the dataset:
 
 \subsubsection{Flipping}
 \subsubsection{Rotating}
@@ -35,6 +72,7 @@ Most images were of .JPG format and some of .JPEG and .PNG format. To make all t
 \subsection{Splitting data}
 
 \subsubsection{Training}
+
 
 \subsubsection{Testing}
 
