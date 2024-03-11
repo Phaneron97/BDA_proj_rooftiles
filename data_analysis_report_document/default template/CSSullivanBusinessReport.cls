@@ -116,7 +116,7 @@
 \usepackage{mathpazo} % Use Palatino for math
 
 \usepackage[sfdefault]{plex-sans} % Use IBM Plex Sans as the sans font and make it the default
-\usepackage{plex-serif} % Use IBM Plex Serif as the serif font
+% \usepackage{plex-serif} % Use IBM Plex Serif as the serif font
 \usepackage{plex-mono} % Use IBM Plex Mono as the mono font
 
 \newcommand{\textel}[1]{{\fontseries{el}\selectfont #1}} % Define a simple command for using the ExtraLight weight

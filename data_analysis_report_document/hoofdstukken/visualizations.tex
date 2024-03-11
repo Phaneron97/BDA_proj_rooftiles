@@ -12,8 +12,15 @@ The figure below shows the result of this analysis for the whole dataset and bel
 	\label{fig:average_color_histogram} % Label for referencing this figure in the text automatically
 \end{figure}
 
+\begin{figure}[H] % [H] forces the figure to be output where it is defined in the code (it suppresses floating)
+	\includegraphics[width=\linewidth]{average_color_histogram_overlap_full.png}
+	\caption{Overlapping colors as colorchannels.}
+	\label{fig:average_color_histogram_overlap_full} % Label for referencing this figure in the text automatically
+\end{figure}
+
+\newpage
 \subsection{Visualizing aspect ratios}
-\sidenote[][2cm]{We also need to check the aspect ratios to check whether non-square images were present in our dataset. And as you can see, not all have a square aspect ratio. However, this is required for most and simpler YOLO algorithms}
+\sidenote[][]{We also need to check the aspect ratios to check whether non-square images were present in our dataset. And as you can see, not all have a square aspect ratio. However, this is required for most and simpler YOLO algorithms}
 
 \begin{figure}[H] % [H] forces the figure to be output where it is defined in the code (it suppresses floating)
 	\includegraphics[width=\linewidth]{aspect_ratio_result.png}
