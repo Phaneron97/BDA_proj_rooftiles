@@ -82,6 +82,8 @@ To explain how the resizing is done, consider the following example: a 1800 by 1
 % 	\caption{Square5}
 % \end{marginfigure}
 
+\newpage
+
 \subsection{Data augmentation}
 A few augmentation techniques are applied to artificially increase the dataset and training data. 
 It's important to realize that this is just done for training and not testing, 
@@ -90,18 +92,102 @@ The primary goal of data augmentation is to increase the diversity of the traini
 Below are a few simple techniques which can be applied to any image in the dataset:
 
 \subsubsection{Flipping}
-Flipping is a common data augmentation technique that is used to flip an image.
-For flipping we horizontally flip the copied image of the original dataset image and use this to help training the model. 
+\sidenote{Flipping is a common data augmentation technique that is used to flip an image.
+For flipping we horizontally flip the copied image of the original dataset image and use this to help training the model. }
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\textwidth]{original.jpg}
+		\caption{Before}
+		\label{fig:original}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\textwidth]{horizontal_flip.jpg}
+		\caption{After}
+		\label{fig:horizontal_flip}
+	\end{subfigure}
+	\label{fig:comparison}
+\end{figure}
+
+% \begin{figure}[H]
+% 	\begin{subfigure}
+% 		\includegraphics[width=\linewidth]{original.jpg}
+% 		\caption{Before}
+% 		\label{fig:original}
+% 	\end{subfigure}
+% 	%
+% 	\begin{subfigure}
+% 		\includegraphics[width=\linewidth]{horizontal_flip.jpg}
+% 		\caption{After}
+% 		\label{fig:horizontal_flip}
+% 	\end{subfigure}
+% 	\label{fig:comparison}
+% \end{figure}
+
 \subsubsection{Mirroring}
-Similar to flipping, but now done vertically. 
-A copy of the original image is being generated but the copy will be vertically flipped.
+\sidenote{Similar to flipping, but now done vertically. 
+A copy of the original image is being generated but the copy will be vertically flipped.}
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\textwidth]{original.jpg}
+		\caption{Before}
+		\label{fig:original}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\textwidth]{vertical_flip.jpg}
+		\caption{After}
+		\label{fig:horizontal_flip}
+	\end{subfigure}
+	\label{fig:comparison}
+\end{figure}
+
+\newpage
+
 \subsubsection{Rotating}
-A copy of the original image from the dataset gets rotated version.
-This is all about diversity for the deep learning process.  
+\sidenote{A copy of the original image from the dataset gets rotated version.
+This is all about diversity for the deep learning process.  }
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\textwidth]{original.jpg}
+		\caption{Before}
+		\label{fig:original}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\textwidth]{random_rotation.jpg}
+		\caption{After}
+		\label{fig:horizontal_flip}
+	\end{subfigure}
+	\label{fig:comparison}
+\end{figure}
+
 \subsubsection{Zoom}
-A copy of the original image from the dataset gets a zoomed version.
+\sidenote{A copy of the original image from the dataset gets a zoomed version.
 For better diversity there will be version of images that are zoomed in. 
-This like the other methods is to increase diversity.
+This like the other methods is to increase diversity.}
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\textwidth]{original.jpg}
+		\caption{Before}
+		\label{fig:original}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\textwidth]{random_zoom.jpg}
+		\caption{After}
+		\label{fig:horizontal_flip}
+	\end{subfigure}
+	\label{fig:comparison}
+\end{figure}
 
 \subsection{Splitting data}
 
