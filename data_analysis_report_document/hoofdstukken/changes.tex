@@ -42,39 +42,32 @@ so that details appear more sharp.}
 \end{figure}
 
 \newpage
-\subsection{Image resizing while keeping ratio}
-Since most image recognition models require the images in the dataset to be of square format, we came up with a technique to make non-square images square. However, simply resizing images to the target size is not sufficient since images in the dataset are not square. Simply resizing images will make resized images streched, which might be harmful in training the model.
+\subsection{Updates to aspect ratio}
+Since most image recognition models require the images in the dataset to be of square format, 
+we came up with a technique to make non-square images square. 
+his is done by placing padding with a random color around the image to fill up the blank space required to make it square. 
+After this a new resolution is immediately applied of 640*640 pixels.
+This resolution is required by most YOLO-models which could be used as the main algorithm classifying the rooftiles. 
+To the side are a few examples of images converted to a square aspect ratio.
 
 \begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
 	\includegraphics[width=\linewidth]{square_dataset/square1.JPG}
-	\caption{An example of resized image.}
+	\caption{Square1}
 \end{marginfigure}
-
-To convert none square images to square images, we add background to the images. This is done by placing padding with a random color around the image to fill up the blank space required to make it square.
-Depending on whether the original image is vertical or horizontal, we add vertical padding or horizontal padding so that the final image becomes square.
-
 
 \begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
 	\includegraphics[width=\linewidth]{square_dataset/square2.JPG}
-	\caption{Example of resized image.}
+	\caption{Square2}
 \end{marginfigure}
-
-We could simply add a black background to all images but to make sure adding single color background does not add bias to images, we have used random color for the background. 
-In the code, the target resolution is 640*640 pixels. This resolution is required by most YOLO-models which could be used as the main algorithm classifying the rooftiles. However, the implemntation of code is genral and can be used for any target resolution. 
-To the side are a few examples of images converted to a square aspect ratio.
-
 
 \begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
 	\includegraphics[width=\linewidth]{square_dataset/square3.JPG}
-	\caption{Example of vertical image.}
+	\caption{Square3}
 \end{marginfigure}
-
-To explain how the resizing is done, consider the following example: a 1800 by 1200 image that we want to convert to 600 by 600 image (number are chosen for simplicity). To make 1800 by 1200 into 600 by 600 square, first we have to resize it by a factor of 1/3 (it is the minimum of 600/1800 = 1/3 and 600/1200 = 1/2). After resizing the original image by a factor of 1/3, we get to a 600 by 400 image. To make this image square, we need to add 100 pixels of padding to each side of this resized image to get a 600 by 600 image.
-
 
 \begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
 	\includegraphics[width=\linewidth]{square_dataset/square4.JPG}
-	\caption{Another example of vertifcal image.}
+	\caption{Square4}
 \end{marginfigure}
 
 % \begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
