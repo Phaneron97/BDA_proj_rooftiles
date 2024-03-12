@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.13)  12 MAR 2024 13:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.13)  12 MAR 2024 14:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1045,39 +1045,39 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 (fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
 
 [7 <./Images//normalization_conversion_before_after.png> <./Images//clahe_graph_histogram.png>]
-<Images//square_dataset/square1.JPG, id=158, 642.4pt x 642.4pt>
+<Images//square_dataset/square0.JPG, id=158, 642.4pt x 642.4pt>
+File: Images//square_dataset/square0.JPG Graphic file (type jpg)
+<use Images//square_dataset/square0.JPG>
+Package pdftex.def Info: Images//square_dataset/square0.JPG  used on input line 48.
+(pdftex.def)             Requested size: 120.92421pt x 120.92021pt.
+<Images//square_dataset/square1.JPG, id=159, 642.4pt x 642.4pt>
 File: Images//square_dataset/square1.JPG Graphic file (type jpg)
 <use Images//square_dataset/square1.JPG>
-Package pdftex.def Info: Images//square_dataset/square1.JPG  used on input line 49.
+Package pdftex.def Info: Images//square_dataset/square1.JPG  used on input line 55.
 (pdftex.def)             Requested size: 120.92421pt x 120.92021pt.
-<Images//square_dataset/square2.JPG, id=159, 642.4pt x 642.4pt>
+
+
+LaTeX Warning: Marginpar on page 8 moved.
+
+<Images//square_dataset/square2.JPG, id=160, 642.4pt x 642.4pt>
 File: Images//square_dataset/square2.JPG Graphic file (type jpg)
 <use Images//square_dataset/square2.JPG>
-Package pdftex.def Info: Images//square_dataset/square2.JPG  used on input line 58.
+Package pdftex.def Info: Images//square_dataset/square2.JPG  used on input line 64.
 (pdftex.def)             Requested size: 120.92421pt x 120.92021pt.
-
 
 LaTeX Warning: Marginpar on page 8 moved.
 
-<Images//square_dataset/square3.JPG, id=160, 642.4pt x 642.4pt>
+<Images//square_dataset/square3.JPG, id=161, 642.4pt x 642.4pt>
 File: Images//square_dataset/square3.JPG Graphic file (type jpg)
 <use Images//square_dataset/square3.JPG>
-Package pdftex.def Info: Images//square_dataset/square3.JPG  used on input line 68.
-(pdftex.def)             Requested size: 120.92421pt x 120.92021pt.
-
-LaTeX Warning: Marginpar on page 8 moved.
-
-<Images//square_dataset/square4.JPG, id=161, 642.4pt x 642.4pt>
-File: Images//square_dataset/square4.JPG Graphic file (type jpg)
-<use Images//square_dataset/square4.JPG>
-Package pdftex.def Info: Images//square_dataset/square4.JPG  used on input line 76.
+Package pdftex.def Info: Images//square_dataset/square3.JPG  used on input line 74.
 (pdftex.def)             Requested size: 120.92421pt x 120.92021pt.
 
 LaTeX Warning: Marginpar on page 8 moved.
 
 File: Images//inhollandlogo.pdf Graphic file (type pdf)
 <use Images//inhollandlogo.pdf>
-Package pdftex.def Info: Images//inhollandlogo.pdf  used on input line 85.
+Package pdftex.def Info: Images//inhollandlogo.pdf  used on input line 86.
 (pdftex.def)             Requested size: 56.9055pt x 41.20277pt.
 
 Package fancyhdr Warning: \headheight is too small (28.45274pt): 
@@ -1086,29 +1086,29 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
 
-[8 <./Images//square_dataset/square1.JPG> <./Images//square_dataset/square2.JPG> <./Images//square_dataset/square3.JPG> <./Images//square_dataset/square4.JPG>]
+[8 <./Images//square_dataset/square0.JPG> <./Images//square_dataset/square1.JPG> <./Images//square_dataset/square2.JPG> <./Images//square_dataset/square3.JPG>]
 <Images//original.jpg, id=173, 1228.59pt x 921.4425pt>
 File: Images//original.jpg Graphic file (type jpg)
 <use Images//original.jpg>
-Package pdftex.def Info: Images//original.jpg  used on input line 110.
+Package pdftex.def Info: Images//original.jpg  used on input line 111.
 (pdftex.def)             Requested size: 150.44293pt x 112.832pt.
 <Images//horizontal_flip.jpg, id=174, 1228.59pt x 921.4425pt>
 File: Images//horizontal_flip.jpg Graphic file (type jpg)
 <use Images//horizontal_flip.jpg>
-Package pdftex.def Info: Images//horizontal_flip.jpg  used on input line 116.
+Package pdftex.def Info: Images//horizontal_flip.jpg  used on input line 117.
 (pdftex.def)             Requested size: 150.44293pt x 112.832pt.
 File: Images//original.jpg Graphic file (type jpg)
 <use Images//original.jpg>
-Package pdftex.def Info: Images//original.jpg  used on input line 130.
+Package pdftex.def Info: Images//original.jpg  used on input line 131.
 (pdftex.def)             Requested size: 150.44293pt x 112.832pt.
 <Images//vertical_flip.jpg, id=175, 1228.59pt x 921.4425pt>
 File: Images//vertical_flip.jpg Graphic file (type jpg)
 <use Images//vertical_flip.jpg>
-Package pdftex.def Info: Images//vertical_flip.jpg  used on input line 136.
+Package pdftex.def Info: Images//vertical_flip.jpg  used on input line 137.
 (pdftex.def)             Requested size: 150.44293pt x 112.832pt.
 File: Images//inhollandlogo.pdf Graphic file (type pdf)
 <use Images//inhollandlogo.pdf>
-Package pdftex.def Info: Images//inhollandlogo.pdf  used on input line 143.
+Package pdftex.def Info: Images//inhollandlogo.pdf  used on input line 144.
 (pdftex.def)             Requested size: 56.9055pt x 41.20277pt.
 
 
@@ -1121,21 +1121,21 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 [9 <./Images//original.jpg> <./Images//horizontal_flip.jpg> <./Images//vertical_flip.jpg>]
 File: Images//original.jpg Graphic file (type jpg)
 <use Images//original.jpg>
-Package pdftex.def Info: Images//original.jpg  used on input line 152.
+Package pdftex.def Info: Images//original.jpg  used on input line 153.
 (pdftex.def)             Requested size: 150.44293pt x 112.832pt.
 <Images//random_rotation.jpg, id=189, 1228.59pt x 921.4425pt>
 File: Images//random_rotation.jpg Graphic file (type jpg)
 <use Images//random_rotation.jpg>
-Package pdftex.def Info: Images//random_rotation.jpg  used on input line 158.
+Package pdftex.def Info: Images//random_rotation.jpg  used on input line 159.
 (pdftex.def)             Requested size: 150.44293pt x 112.832pt.
 File: Images//original.jpg Graphic file (type jpg)
 <use Images//original.jpg>
-Package pdftex.def Info: Images//original.jpg  used on input line 173.
+Package pdftex.def Info: Images//original.jpg  used on input line 174.
 (pdftex.def)             Requested size: 150.44293pt x 112.832pt.
 <Images//random_zoom.jpg, id=190, 1228.59pt x 921.4425pt>
 File: Images//random_zoom.jpg Graphic file (type jpg)
 <use Images//random_zoom.jpg>
-Package pdftex.def Info: Images//random_zoom.jpg  used on input line 179.
+Package pdftex.def Info: Images//random_zoom.jpg  used on input line 180.
 (pdftex.def)             Requested size: 150.44293pt x 112.832pt.
 ) 
 AED: lastpage setting LastPage
@@ -1162,7 +1162,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 147F5A9CE814D0A7DE98AE91D7E11CC0;2229.
+(rerunfilecheck)             Checksum: 459CF5A7778B4818F7941C3B6D83A8EF;2120.
 Package logreq Info: Writing requests to 'template.run.xml'.
 \openout1 = `template.run.xml'.
 
@@ -1170,15 +1170,15 @@ Package logreq Info: Writing requests to 'template.run.xml'.
 Here is how much of TeX's memory you used:
  22423 strings out of 480171
  395725 string characters out of 5894488
- 1097324 words of memory out of 5000000
+ 1098324 words of memory out of 5000000
  39983 multiletter control sequences out of 15000+600000
  483060 words of font info for 54 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  83i,15n,92p,926b,848s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm3583.600pk>
-Output written on template.pdf (10 pages, 5995723 bytes).
+Output written on template.pdf (10 pages, 6023235 bytes).
 PDF statistics:
- 569 PDF objects out of 1000 (max. 8388607)
+ 567 PDF objects out of 1000 (max. 8388607)
  193 compressed objects within 2 object streams
  55 named destinations out of 1000 (max. 500000)
  190 words of extra memory for PDF output out of 10000 (max. 10000000)

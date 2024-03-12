@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {2.3}Applying grayscale}{6}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Applying normalization}{7}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Applying CLAHE}{7}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Image resizing while keeping ratio}{8}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.6}Image resizing}{8}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Splitting data}{9}{subsection.2.7}%
 \contentsline {subsubsection}{\numberline {2.7.1}Training}{9}{subsubsection.2.7.1}%
 \contentsline {subsubsection}{\numberline {2.7.2}Testing}{9}{subsubsection.2.7.2}%
