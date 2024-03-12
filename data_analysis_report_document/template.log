@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.13)  11 MAR 2024 16:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.13)  12 MAR 2024 13:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -45,11 +45,31 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen139
 \Gin@req@width=\dimen140
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen141
+\captionmargin@=\dimen142
+\captionwidth=\dimen143
+\caption@tempdima=\dimen144
+\caption@indent=\dimen145
+\caption@parindent=\dimen146
+\caption@hangindent=\dimen147
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count194
+\c@continuedfloat=\count195
+)
+\c@subfigure=\count196
+\c@subtable=\count197
 ) (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks17
-\footnotemargin=\dimen141
-\c@pp@next@reset=\count194
+\footnotemargin=\dimen148
+\c@pp@next@reset=\count198
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -76,12 +96,12 @@ Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
 ) (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count195
-\c@@ppsavesec=\count196
-\c@@ppsaveapp=\count197
+\c@@pps=\count199
+\c@@ppsavesec=\count266
+\c@@ppsaveapp=\count267
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count198
+\c@float@type=\count268
 \float@exts=\toks18
 \float@box=\box50
 \@float@everytoks=\toks19
@@ -93,23 +113,23 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count199
-\Gm@cntv=\count266
-\c@Gm@tempcnt=\count267
-\Gm@bindingoffset=\dimen142
-\Gm@wd@mp=\dimen143
-\Gm@odd@mp=\dimen144
-\Gm@even@mp=\dimen145
-\Gm@layoutwidth=\dimen146
-\Gm@layoutheight=\dimen147
-\Gm@layouthoffset=\dimen148
-\Gm@layoutvoffset=\dimen149
+\Gm@cnth=\count269
+\Gm@cntv=\count270
+\c@Gm@tempcnt=\count271
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
 \Gm@dimlist=\toks20
 ) (/usr/share/texlive/texmf-dist/tex/latex/sidenotes/sidenotes.sty (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2022-01-21 L3 programming layer (loader) 
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count268
+\l__color_backend_stack_int=\count272
 \l__pdf_internal_box=\box52
 ))
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
@@ -117,31 +137,15 @@ Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
 Package: sidenotes 2016/04/21 v1.00 rich text in the margin for LaTeX
  (/usr/share/texlive/texmf-dist/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
-\c@mn@abspage=\count269
-) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
- (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen150
-\captionmargin@=\dimen151
-\captionwidth=\dimen152
-\caption@tempdima=\dimen153
-\caption@indent=\dimen154
-\caption@parindent=\dimen155
-\caption@hangindent=\dimen156
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count270
-\c@continuedfloat=\count271
-Package caption Info: float package is loaded.
+\c@mn@abspage=\count273
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2022-01-12 L3 Experimental document command parser
 ) (/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count272
-\cp@tempcnt=\count273
+\c@cp@cntr=\count274
+\cp@tempcnt=\count275
 )
-\c@sidenote=\count274
+\c@sidenote=\count276
 \@sidenotes@marginfigurebox=\box53
 \@sidenotes@margintablebox=\box54
 )
@@ -167,7 +171,7 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 \XKV@toks=\toks23
 \XKV@tempa@toks=\toks24
 )
-\XKV@depth=\count275
+\XKV@depth=\count277
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
@@ -218,15 +222,15 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 \f@nch@O@orf=\skip72
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count276
-\calc@Bcount=\count277
+\calc@Acount=\count278
+\calc@Bcount=\count279
 \calc@Adimen=\dimen157
 \calc@Bdimen=\dimen158
 \calc@Askip=\skip73
 \calc@Bskip=\skip74
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count278
+\calc@Ccount=\count280
 \calc@Cskip=\skip75
 )
 \marginoffset=\skip76
@@ -280,7 +284,7 @@ Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )) (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count279
+\lrq@indent=\count281
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -289,48 +293,48 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count280
-\c@listtotal=\count281
-\c@listcount=\count282
-\c@liststart=\count283
-\c@liststop=\count284
-\c@citecount=\count285
-\c@citetotal=\count286
-\c@multicitecount=\count287
-\c@multicitetotal=\count288
-\c@instcount=\count289
-\c@maxnames=\count290
-\c@minnames=\count291
-\c@maxitems=\count292
-\c@minitems=\count293
-\c@citecounter=\count294
-\c@maxcitecounter=\count295
-\c@savedcitecounter=\count296
-\c@uniquelist=\count297
-\c@uniquename=\count298
-\c@refsection=\count299
-\c@refsegment=\count300
-\c@maxextratitle=\count301
-\c@maxextratitleyear=\count302
-\c@maxextraname=\count303
-\c@maxextradate=\count304
-\c@maxextraalpha=\count305
-\c@abbrvpenalty=\count306
-\c@highnamepenalty=\count307
-\c@lownamepenalty=\count308
-\c@maxparens=\count309
-\c@parenlevel=\count310
-\blx@tempcnta=\count311
-\blx@tempcntb=\count312
-\blx@tempcntc=\count313
-\c@blx@maxsection=\count314
-\c@blx@maxsegment@0=\count315
-\blx@notetype=\count316
-\blx@parenlevel@text=\count317
-\blx@parenlevel@foot=\count318
-\c@blx@sectionciteorder@0=\count319
-\blx@entrysetcounter=\count320
-\blx@biblioinstance=\count321
+\c@tabx@nest=\count282
+\c@listtotal=\count283
+\c@listcount=\count284
+\c@liststart=\count285
+\c@liststop=\count286
+\c@citecount=\count287
+\c@citetotal=\count288
+\c@multicitecount=\count289
+\c@multicitetotal=\count290
+\c@instcount=\count291
+\c@maxnames=\count292
+\c@minnames=\count293
+\c@maxitems=\count294
+\c@minitems=\count295
+\c@citecounter=\count296
+\c@maxcitecounter=\count297
+\c@savedcitecounter=\count298
+\c@uniquelist=\count299
+\c@uniquename=\count300
+\c@refsection=\count301
+\c@refsegment=\count302
+\c@maxextratitle=\count303
+\c@maxextratitleyear=\count304
+\c@maxextraname=\count305
+\c@maxextradate=\count306
+\c@maxextraalpha=\count307
+\c@abbrvpenalty=\count308
+\c@highnamepenalty=\count309
+\c@lownamepenalty=\count310
+\c@maxparens=\count311
+\c@parenlevel=\count312
+\blx@tempcnta=\count313
+\blx@tempcntb=\count314
+\blx@tempcntc=\count315
+\c@blx@maxsection=\count316
+\c@blx@maxsegment@0=\count317
+\blx@notetype=\count318
+\blx@parenlevel@text=\count319
+\blx@parenlevel@foot=\count320
+\c@blx@sectionciteorder@0=\count321
+\blx@entrysetcounter=\count322
+\blx@biblioinstance=\count323
 \labelnumberwidth=\skip79
 \labelalphawidth=\skip80
 \biblabelsep=\skip81
@@ -342,9 +346,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language7
-\c@mincomprange=\count322
-\c@maxcomprange=\count323
-\c@mincompwidth=\count324
+\c@mincomprange=\count324
+\c@maxcomprange=\count325
+\c@mincompwidth=\count326
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -354,74 +358,74 @@ Package biblatex Info: Trying to load biblatex citestyle data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count325
-\c@savedafterword=\count326
-\c@annotator=\count327
-\c@savedannotator=\count328
-\c@author=\count329
-\c@savedauthor=\count330
-\c@bookauthor=\count331
-\c@savedbookauthor=\count332
-\c@commentator=\count333
-\c@savedcommentator=\count334
-\c@editor=\count335
-\c@savededitor=\count336
-\c@editora=\count337
-\c@savededitora=\count338
-\c@editorb=\count339
-\c@savededitorb=\count340
-\c@editorc=\count341
-\c@savededitorc=\count342
-\c@foreword=\count343
-\c@savedforeword=\count344
-\c@holder=\count345
-\c@savedholder=\count346
-\c@introduction=\count347
-\c@savedintroduction=\count348
-\c@namea=\count349
-\c@savednamea=\count350
-\c@nameb=\count351
-\c@savednameb=\count352
-\c@namec=\count353
-\c@savednamec=\count354
-\c@translator=\count355
-\c@savedtranslator=\count356
-\c@shortauthor=\count357
-\c@savedshortauthor=\count358
-\c@shorteditor=\count359
-\c@savedshorteditor=\count360
-\c@labelname=\count361
-\c@savedlabelname=\count362
-\c@institution=\count363
-\c@savedinstitution=\count364
-\c@lista=\count365
-\c@savedlista=\count366
-\c@listb=\count367
-\c@savedlistb=\count368
-\c@listc=\count369
-\c@savedlistc=\count370
-\c@listd=\count371
-\c@savedlistd=\count372
-\c@liste=\count373
-\c@savedliste=\count374
-\c@listf=\count375
-\c@savedlistf=\count376
-\c@location=\count377
-\c@savedlocation=\count378
-\c@organization=\count379
-\c@savedorganization=\count380
-\c@origlocation=\count381
-\c@savedoriglocation=\count382
-\c@origpublisher=\count383
-\c@savedorigpublisher=\count384
-\c@publisher=\count385
-\c@savedpublisher=\count386
-\c@language=\count387
-\c@savedlanguage=\count388
-\c@origlanguage=\count389
-\c@savedoriglanguage=\count390
-\c@pageref=\count391
-\c@savedpageref=\count392
+\c@afterword=\count327
+\c@savedafterword=\count328
+\c@annotator=\count329
+\c@savedannotator=\count330
+\c@author=\count331
+\c@savedauthor=\count332
+\c@bookauthor=\count333
+\c@savedbookauthor=\count334
+\c@commentator=\count335
+\c@savedcommentator=\count336
+\c@editor=\count337
+\c@savededitor=\count338
+\c@editora=\count339
+\c@savededitora=\count340
+\c@editorb=\count341
+\c@savededitorb=\count342
+\c@editorc=\count343
+\c@savededitorc=\count344
+\c@foreword=\count345
+\c@savedforeword=\count346
+\c@holder=\count347
+\c@savedholder=\count348
+\c@introduction=\count349
+\c@savedintroduction=\count350
+\c@namea=\count351
+\c@savednamea=\count352
+\c@nameb=\count353
+\c@savednameb=\count354
+\c@namec=\count355
+\c@savednamec=\count356
+\c@translator=\count357
+\c@savedtranslator=\count358
+\c@shortauthor=\count359
+\c@savedshortauthor=\count360
+\c@shorteditor=\count361
+\c@savedshorteditor=\count362
+\c@labelname=\count363
+\c@savedlabelname=\count364
+\c@institution=\count365
+\c@savedinstitution=\count366
+\c@lista=\count367
+\c@savedlista=\count368
+\c@listb=\count369
+\c@savedlistb=\count370
+\c@listc=\count371
+\c@savedlistc=\count372
+\c@listd=\count373
+\c@savedlistd=\count374
+\c@liste=\count375
+\c@savedliste=\count376
+\c@listf=\count377
+\c@savedlistf=\count378
+\c@location=\count379
+\c@savedlocation=\count380
+\c@organization=\count381
+\c@savedorganization=\count382
+\c@origlocation=\count383
+\c@savedoriglocation=\count384
+\c@origpublisher=\count385
+\c@savedorigpublisher=\count386
+\c@publisher=\count387
+\c@savedpublisher=\count388
+\c@language=\count389
+\c@savedlanguage=\count390
+\c@origlanguage=\count391
+\c@savedoriglanguage=\count392
+\c@pageref=\count393
+\c@savedpageref=\count394
 \shorthandwidth=\skip87
 \shortjournalwidth=\skip88
 \shortserieswidth=\skip89
@@ -445,19 +449,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count393
-\c@textcitetotal=\count394
-\c@textcitemaxnames=\count395
-\c@biburlbigbreakpenalty=\count396
-\c@biburlbreakpenalty=\count397
-\c@biburlnumpenalty=\count398
-\c@biburlucpenalty=\count399
-\c@biburllcpenalty=\count400
+\c@textcitecount=\count395
+\c@textcitetotal=\count396
+\c@textcitemaxnames=\count397
+\c@biburlbigbreakpenalty=\count398
+\c@biburlbreakpenalty=\count399
+\c@biburlnumpenalty=\count400
+\c@biburlucpenalty=\count401
+\c@biburllcpenalty=\count402
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count401
+\c@smartand=\count403
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -467,8 +471,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count402
-\c@bbx:relatedtotal=\count403
+\c@bbx:relatedcount=\count404
+\c@bbx:relatedtotal=\count405
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -511,12 +515,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen172
 \cmidrulekern=\dimen173
 \defaultaddspace=\dimen174
-\@cmidla=\count404
-\@cmidlb=\count405
+\@cmidla=\count406
+\@cmidlb=\count407
 \@aboverulesep=\dimen175
 \@belowrulesep=\dimen176
-\@thisruleclass=\count406
-\@lastruleclass=\count407
+\@thisruleclass=\count408
+\@lastruleclass=\count409
 \@thisrulewidth=\dimen177
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
@@ -533,8 +537,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@outerparindent=\dimen180
 \enit@toks=\toks27
 \enit@inbox=\box58
-\enit@count@id=\count408
-\enitdp@description=\count409
+\enit@count@id=\count410
+\enitdp@description=\count411
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
  (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -549,8 +553,8 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen181
-\Hy@linkcounter=\count410
-\Hy@pagecounter=\count411
+\Hy@linkcounter=\count412
+\Hy@pagecounter=\count413
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -562,7 +566,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count412
+\Hy@SavedSpaceFactor=\count414
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -575,7 +579,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count413
+\c@Hy@tempcnt=\count415
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen182
  (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
@@ -583,7 +587,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count414
+\Fld@menulength=\count416
 \Field@Width=\dimen183
 \Fld@charsize=\dimen184
 Package hyperref Info: Hyper figures OFF on input line 6076.
@@ -599,9 +603,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count415
-\c@Item=\count416
-\c@Hfootnote=\count417
+\Hy@abspage=\count417
+\c@Item=\count418
+\c@Hfootnote=\count419
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -610,8 +614,8 @@ File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count418
-\c@bookmark@seq@number=\count419
+\Fld@listcount=\count420
+\c@bookmark@seq@number=\count421
  (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -621,33 +625,79 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip104
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 329.
+Package hyperref Info: Option `colorlinks' set `true' on input line 330.
  (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count420
+\lst@mode=\count422
 \lst@gtempboxa=\box59
 \lst@token=\toks28
-\lst@length=\count421
+\lst@length=\count423
 \lst@currlwidth=\dimen185
-\lst@column=\count422
-\lst@pos=\count423
+\lst@column=\count424
+\lst@pos=\count425
 \lst@lostspace=\dimen186
 \lst@width=\dimen187
-\lst@newlines=\count424
-\lst@lineno=\count425
+\lst@newlines=\count426
+\lst@lineno=\count427
 \lst@maxwidth=\dimen188
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count426
-\lst@skipnumbers=\count427
+\c@lstnumber=\count428
+\lst@skipnumbers=\count429
 \lst@framebox=\box60
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 )
-\@quotelevel=\count428
-\@quotereset=\count429
- (./template.aux)
+\@quotelevel=\count430
+\@quotereset=\count431
+ (./template.aux
+
+LaTeX Warning: Label `fig:original' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:original' multiply defined.
+
+
+LaTeX Warning: Label `fig:horizontal_flip' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:horizontal_flip' multiply defined.
+
+
+LaTeX Warning: Label `fig:comparison' multiply defined.
+
+
+LaTeX Warning: Label `fig:original' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:original' multiply defined.
+
+
+LaTeX Warning: Label `fig:horizontal_flip' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:horizontal_flip' multiply defined.
+
+
+LaTeX Warning: Label `fig:comparison' multiply defined.
+
+
+LaTeX Warning: Label `fig:original' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:original' multiply defined.
+
+
+LaTeX Warning: Label `fig:horizontal_flip' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:horizontal_flip' multiply defined.
+
+
+LaTeX Warning: Label `fig:comparison' multiply defined.
+
+)
 \openout1 = `template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -670,16 +720,16 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count430
+\scratchcounter=\count432
 \scratchdimen=\dimen189
 \scratchbox=\box61
-\nofMPsegments=\count431
-\nofMParguments=\count432
+\nofMPsegments=\count433
+\nofMParguments=\count434
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count433
+\MPscratchCnt=\count435
 \MPscratchDim=\dimen190
-\MPnumerator=\count434
-\makeMPintoPDFobject=\count435
+\MPnumerator=\count436
+\makeMPintoPDFobject=\count437
 \everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -687,6 +737,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen191
+\caption@adjustwidth@linewidth=\dimen192
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
 Package ragged2e Info: ABD: executing \RaggedRight on input line 45.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
@@ -726,17 +784,10 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: changepage package is loaded.
-\caption@adjustwidth@hsize=\dimen191
-\caption@adjustwidth@linewidth=\dimen192
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: End \AtBeginDocument code.
 \@sidenotes@extrawidth=\skip105
 \big@size=\dimen193
-\c@mv@tabular=\count436
-\c@mv@boldtabular=\count437
+\c@mv@tabular=\count438
+\c@mv@boldtabular=\count439
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -760,7 +811,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count438
+\c@section@level=\count440
 )
 LaTeX Info: Redefining \ref on input line 45.
 LaTeX Info: Redefining \pageref on input line 45.
@@ -769,7 +820,7 @@ LaTeX Info: Redefining \nameref on input line 45.
 \@outlinefile=\write4
 \openout4 = `template.out'.
 
-\c@lstlisting=\count439
+\c@lstlisting=\count441
 
 
 pdfTeX warning: pdflatex (file ./Images//inhollandlogo.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
@@ -883,7 +934,7 @@ LaTeX Font Warning: Font shape `T1/IBMPlexSans-TLF/sb/n' undefined
 
 
 LaTeX Font Warning: Font shape `T1/IBMPlexSans-TLF/sb/n' undefined
-(Font)              using `T1/IBMPlexSans-TLF/b/n' instead on input line 17.
+(Font)              using `T1/IBMPlexSans-TLF/b/n' instead on input line 15.
 
 )
 \tf@toc=\write5
@@ -997,12 +1048,12 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 <Images//square_dataset/square1.JPG, id=158, 642.4pt x 642.4pt>
 File: Images//square_dataset/square1.JPG Graphic file (type jpg)
 <use Images//square_dataset/square1.JPG>
-Package pdftex.def Info: Images//square_dataset/square1.JPG  used on input line 54.
+Package pdftex.def Info: Images//square_dataset/square1.JPG  used on input line 49.
 (pdftex.def)             Requested size: 120.92421pt x 120.92021pt.
 <Images//square_dataset/square2.JPG, id=159, 642.4pt x 642.4pt>
 File: Images//square_dataset/square2.JPG Graphic file (type jpg)
 <use Images//square_dataset/square2.JPG>
-Package pdftex.def Info: Images//square_dataset/square2.JPG  used on input line 59.
+Package pdftex.def Info: Images//square_dataset/square2.JPG  used on input line 58.
 (pdftex.def)             Requested size: 120.92421pt x 120.92021pt.
 
 
@@ -1011,7 +1062,7 @@ LaTeX Warning: Marginpar on page 8 moved.
 <Images//square_dataset/square3.JPG, id=160, 642.4pt x 642.4pt>
 File: Images//square_dataset/square3.JPG Graphic file (type jpg)
 <use Images//square_dataset/square3.JPG>
-Package pdftex.def Info: Images//square_dataset/square3.JPG  used on input line 64.
+Package pdftex.def Info: Images//square_dataset/square3.JPG  used on input line 68.
 (pdftex.def)             Requested size: 120.92421pt x 120.92021pt.
 
 LaTeX Warning: Marginpar on page 8 moved.
@@ -1019,11 +1070,73 @@ LaTeX Warning: Marginpar on page 8 moved.
 <Images//square_dataset/square4.JPG, id=161, 642.4pt x 642.4pt>
 File: Images//square_dataset/square4.JPG Graphic file (type jpg)
 <use Images//square_dataset/square4.JPG>
-Package pdftex.def Info: Images//square_dataset/square4.JPG  used on input line 69.
+Package pdftex.def Info: Images//square_dataset/square4.JPG  used on input line 76.
 (pdftex.def)             Requested size: 120.92421pt x 120.92021pt.
 
 LaTeX Warning: Marginpar on page 8 moved.
 
+File: Images//inhollandlogo.pdf Graphic file (type pdf)
+<use Images//inhollandlogo.pdf>
+Package pdftex.def Info: Images//inhollandlogo.pdf  used on input line 85.
+(pdftex.def)             Requested size: 56.9055pt x 41.20277pt.
+
+Package fancyhdr Warning: \headheight is too small (28.45274pt): 
+(fancyhdr)                Make it at least 45.55281pt, for example:
+(fancyhdr)                \setlength{\headheight}{45.55281pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
+
+[8 <./Images//square_dataset/square1.JPG> <./Images//square_dataset/square2.JPG> <./Images//square_dataset/square3.JPG> <./Images//square_dataset/square4.JPG>]
+<Images//original.jpg, id=173, 1228.59pt x 921.4425pt>
+File: Images//original.jpg Graphic file (type jpg)
+<use Images//original.jpg>
+Package pdftex.def Info: Images//original.jpg  used on input line 110.
+(pdftex.def)             Requested size: 150.44293pt x 112.832pt.
+<Images//horizontal_flip.jpg, id=174, 1228.59pt x 921.4425pt>
+File: Images//horizontal_flip.jpg Graphic file (type jpg)
+<use Images//horizontal_flip.jpg>
+Package pdftex.def Info: Images//horizontal_flip.jpg  used on input line 116.
+(pdftex.def)             Requested size: 150.44293pt x 112.832pt.
+File: Images//original.jpg Graphic file (type jpg)
+<use Images//original.jpg>
+Package pdftex.def Info: Images//original.jpg  used on input line 130.
+(pdftex.def)             Requested size: 150.44293pt x 112.832pt.
+<Images//vertical_flip.jpg, id=175, 1228.59pt x 921.4425pt>
+File: Images//vertical_flip.jpg Graphic file (type jpg)
+<use Images//vertical_flip.jpg>
+Package pdftex.def Info: Images//vertical_flip.jpg  used on input line 136.
+(pdftex.def)             Requested size: 150.44293pt x 112.832pt.
+File: Images//inhollandlogo.pdf Graphic file (type pdf)
+<use Images//inhollandlogo.pdf>
+Package pdftex.def Info: Images//inhollandlogo.pdf  used on input line 143.
+(pdftex.def)             Requested size: 56.9055pt x 41.20277pt.
+
+
+Package fancyhdr Warning: \headheight is too small (28.45274pt): 
+(fancyhdr)                Make it at least 45.55281pt, for example:
+(fancyhdr)                \setlength{\headheight}{45.55281pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
+
+[9 <./Images//original.jpg> <./Images//horizontal_flip.jpg> <./Images//vertical_flip.jpg>]
+File: Images//original.jpg Graphic file (type jpg)
+<use Images//original.jpg>
+Package pdftex.def Info: Images//original.jpg  used on input line 152.
+(pdftex.def)             Requested size: 150.44293pt x 112.832pt.
+<Images//random_rotation.jpg, id=189, 1228.59pt x 921.4425pt>
+File: Images//random_rotation.jpg Graphic file (type jpg)
+<use Images//random_rotation.jpg>
+Package pdftex.def Info: Images//random_rotation.jpg  used on input line 158.
+(pdftex.def)             Requested size: 150.44293pt x 112.832pt.
+File: Images//original.jpg Graphic file (type jpg)
+<use Images//original.jpg>
+Package pdftex.def Info: Images//original.jpg  used on input line 173.
+(pdftex.def)             Requested size: 150.44293pt x 112.832pt.
+<Images//random_zoom.jpg, id=190, 1228.59pt x 921.4425pt>
+File: Images//random_zoom.jpg Graphic file (type jpg)
+<use Images//random_zoom.jpg>
+Package pdftex.def Info: Images//random_zoom.jpg  used on input line 179.
+(pdftex.def)             Requested size: 150.44293pt x 112.832pt.
 ) 
 AED: lastpage setting LastPage
 File: Images//inhollandlogo.pdf Graphic file (type pdf)
@@ -1037,7 +1150,7 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
 
-[8 <./Images//square_dataset/square1.JPG> <./Images//square_dataset/square2.JPG> <./Images//square_dataset/square3.JPG> <./Images//square_dataset/square4.JPG>] (./template.aux)
+[10 <./Images//random_rotation.jpg> <./Images//random_zoom.jpg>] (./template.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 14.17pt have occurred.
@@ -1045,25 +1158,28 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: C44F2E88133F2929AC218BB3C5E87EFB;2171.
+(rerunfilecheck)             Checksum: 147F5A9CE814D0A7DE98AE91D7E11CC0;2229.
 Package logreq Info: Writing requests to 'template.run.xml'.
 \openout1 = `template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22288 strings out of 480171
- 392766 string characters out of 5894488
- 1094902 words of memory out of 5000000
- 39866 multiletter control sequences out of 15000+600000
+ 22423 strings out of 480171
+ 395725 string characters out of 5894488
+ 1097324 words of memory out of 5000000
+ 39983 multiletter control sequences out of 15000+600000
  483060 words of font info for 54 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  83i,15n,92p,926b,848s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk> </home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm3583.600pk>
-Output written on template.pdf (8 pages, 3937012 bytes).
+Output written on template.pdf (10 pages, 5995723 bytes).
 PDF statistics:
- 516 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 569 PDF objects out of 1000 (max. 8388607)
+ 193 compressed objects within 2 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 190 words of extra memory for PDF output out of 10000 (max. 10000000)
 

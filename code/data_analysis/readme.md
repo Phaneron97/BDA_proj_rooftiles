@@ -12,7 +12,9 @@ type fotos : volledige dakpannen, verschillende hoeken, verschillende opstelling
 4. normalization_converter.py: Does the following:
     * Normalizes all images within dataset to remove noise and glare from camera.
     * Picks 3 random images and shows the colorchannels in histogram
-5. CLAHE_converter.py: DDoes the following:
+5. CLAHE_converter.py: Does the following:
     * Applies CLAHE (Contract Limited Adaptive Histogram Equalization) to all images within dataset.
     * Picks 3 random images and shows the colorchannels in histogram
-6. resize_all_keep_ratio.py: Converts images to 640 by 640 by adding a border around each image depending on the original aspect ratio
+6. split_data.py: Stratified dataset splitting (preserve amount of images per rooftile)
+7. rotate, 
+8. resize_all_keep_ratio.py: Converts images to 640 by 640 by adding a border around each image depending on the original aspect ratio

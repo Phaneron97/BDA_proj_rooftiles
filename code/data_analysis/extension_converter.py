@@ -24,6 +24,6 @@ def convert_images_to_png(input_folder):
                 os.remove(input_path)
 
 if __name__ == "__main__":
-    input_folder = 'dataset/'
+    input_folder = 'dataset/dataset_complete'
 
     convert_images_to_png(input_folder)

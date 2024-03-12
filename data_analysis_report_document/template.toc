@@ -8,13 +8,13 @@
 \contentsline {subsection}{\numberline {2.3}Applying grayscale}{6}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Applying normalization}{7}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Applying CLAHE}{7}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Updates to aspect ratio}{8}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Data augmentation}{8}{subsection.2.7}%
-\contentsline {subsubsection}{\numberline {2.7.1}Flipping}{8}{subsubsection.2.7.1}%
-\contentsline {subsubsection}{\numberline {2.7.2}Rotating}{8}{subsubsection.2.7.2}%
-\contentsline {subsubsection}{\numberline {2.7.3}Mirroring}{8}{subsubsection.2.7.3}%
-\contentsline {subsubsection}{\numberline {2.7.4}Zoom}{8}{subsubsection.2.7.4}%
-\contentsline {subsection}{\numberline {2.8}Splitting data}{8}{subsection.2.8}%
-\contentsline {subsubsection}{\numberline {2.8.1}Training}{8}{subsubsection.2.8.1}%
-\contentsline {subsubsection}{\numberline {2.8.2}Testing}{8}{subsubsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.6}Image resizing while keeping ratio}{8}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Splitting data}{9}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Training}{9}{subsubsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.2}Testing}{9}{subsubsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.8}Data augmentation}{9}{subsection.2.8}%
+\contentsline {subsubsection}{\numberline {2.8.1}Flipping}{9}{subsubsection.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.8.2}Mirroring}{9}{subsubsection.2.8.2}%
+\contentsline {subsubsection}{\numberline {2.8.3}Rotating}{10}{subsubsection.2.8.3}%
+\contentsline {subsubsection}{\numberline {2.8.4}Zoom}{10}{subsubsection.2.8.4}%
 \contentsfinish 
