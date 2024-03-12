@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber template"] 1710155572 "template.bcf" "template.bbl" "template" 1710246483
-  "template.bcf" 1710246482 106631 415772ba2fb25c59dfa67931144687dc "pdflatex"
+["biber template"] 1710155572 "template.bcf" "template.bbl" "template" 1710251169
+  "template.bcf" 1710251169 106631 415772ba2fb25c59dfa67931144687dc "pdflatex"
   (generated)
   "template.bbl"
   "template.blg"
-["pdflatex"] 1710246480 "/home/christian/Documents/BDA_proj_rooftiles/data_analysis_report_document/template.tex" "template.pdf" "template" 1710246483
+["pdflatex"] 1710251166 "/home/christian/Documents/BDA_proj_rooftiles/data_analysis_report_document/template.tex" "template.pdf" "template" 1710251169
   "/etc/texmf/web2c/texmf.cnf" 1697224464 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk" 1710155390 19056 ff15cc43ad242f5615948c3afef904d5 ""
   "/home/christian/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk" 1710155389 21332 81471cf4f4522747d329bece9b005fd5 ""
@@ -152,22 +152,22 @@
   "Images//random_rotation.jpg" 1710244167 357608 1abe09ff52c9da5ea2a89374b3a0ed60 ""
   "Images//random_zoom.jpg" 1710244167 347713 20481f3a9ed810caa1468b2dbc56f438 ""
   "Images//rescale_res_result.png" 1710142443 35423 91e06f11b02a9a9422b0c9ac4c57892a ""
+  "Images//square_dataset/square0.JPG" 1710249700 161840 0d87bbfb49815b0a850464c27285699e ""
   "Images//square_dataset/square1.JPG" 1710142443 114615 87396359428ea7b46912d1f049acf553 ""
   "Images//square_dataset/square2.JPG" 1710142443 121141 636158b938e8679122ffd55c618d57d9 ""
   "Images//square_dataset/square3.JPG" 1710142443 204400 a156f6f90942980acdb466c08436c50a ""
-  "Images//square_dataset/square4.JPG" 1710142443 133633 422edb2badf378e2cc3275aadd6bb1bd ""
   "Images//vertical_flip.jpg" 1710244167 455654 63481acf39c50d283e356b8efbf7c404 ""
-  "hoofdstukken/changes.tex" 1710246477 14505 bece1025a33e847b0d732926b2922685 ""
+  "hoofdstukken/changes.tex" 1710251162 14630 84ea0173625730930534d27496fedf1b ""
   "hoofdstukken/visualizations.tex" 1710167963 3722 b6225150cd94549a8e884f1b568aff08 ""
   "plex-mono.sty" 1710155492 3803 b25f954177501d31648144b2b1a45fb9 ""
   "plex-sans.sty" 1710155493 6590 6313dacabba92b1026f156aa00bc8b29 ""
   "plex-serif.sty" 1710155776 4081 db2b61ce9cdb9498c3dbecdb2bd9c211 ""
-  "template.aux" 1710246482 7505 3510dd6dfba4362f4d908822d1f25422 "pdflatex"
+  "template.aux" 1710251169 7506 f4e09d986b3ffbaae9e36a85b2f9ef41 "pdflatex"
   "template.bbl" 1710155573 466 ee04f40f768daeed26442158e95aba61 "biber template"
-  "template.out" 1710246482 2229 147f5a9ce814d0a7de98ae91d7e11cc0 "pdflatex"
-  "template.run.xml" 1710246482 2329 dd0b28ad5248dccc56c9d3651d0f9aad "pdflatex"
+  "template.out" 1710251169 2120 459cf5a7778b4818f7941c3b6d83a8ef "pdflatex"
+  "template.run.xml" 1710251169 2329 dd0b28ad5248dccc56c9d3651d0f9aad "pdflatex"
   "template.tex" 1710244173 5976 0dbb4425f7535793d827a320ad1edf90 ""
-  "template.toc" 1710246482 1645 c415d08df631a6379101113a398bd8dd "pdflatex"
+  "template.toc" 1710251169 1625 d49c949638e712fa8f4fe747e65d012c "pdflatex"
   (generated)
   "template.aux"
   "template.bcf"
