@@ -40,6 +40,150 @@ so that details appear more sharp.}
 	\caption{CLAHE of images plot}
 	\label{fig:clahe_graph_histogram} % Label for referencing this figure in the text automatically
 \end{figure}
+\newpage
+\subsection{Splitting data based on side of rooftile}
+The dataset consists of 2 types of images per rooftile:
+\begin{itemize}
+	\item Picture from the top
+	\item Picture from the bottom
+\end{itemize}
+
+\sidenote{As described in the first section, all folders are on the same level. This means that top and bottom images are on the same directory level as well. 
+We don't want that. What we want is to split the folders based on the top/bottom side of the rooftile so we can train two models, one for each.
+We end up with the following folderstructure (Not that this does not include all folders):}
+
+\begin{forest}
+	for tree={
+		font=\ttfamily,
+		grow'=0,
+		child anchor=west,
+		parent anchor=south,
+		anchor=west,
+		calign=first,
+		edge path={
+			\noexpand\path [draw, \forestoption{edge}]
+			(!u.south west) +(7.5pt,0) |- node[fill,inner sep=1.25pt] {} (.child anchor)\forestoption{edge label};
+		},
+		before typesetting nodes={
+			if n=1
+			{insert before={[,phantom]}}
+			{}
+		},
+		fit=band,
+		before computing xy={l=15pt},
+	}
+	[dataset
+		[b
+			[d0000\_b\_blw\_g\_OVH
+				[d0000\_b\_blw\_g\_OVH (1).png]
+				[d0000\_b\_blw\_g\_OVH (2).png]
+				[d0000\_b\_blw\_g\_OVH (3).png]
+			]
+			[d0001\_b\_blw\_n\_TDN44
+				[d0001\_b\_blw\_n\_TDN44 (1).png]
+				[d0001\_b\_blw\_n\_TDN44 (2).png]
+				[d0001\_b\_blw\_n\_TDN44 (3).png]
+			]
+		]
+		[o
+			[d0000\_o\_blw\_g\_OVH
+				[d0000\_o\_blw\_g\_OVH (1).png]
+				[d0000\_o\_blw\_g\_OVH (2).png]
+				[d0000\_o\_blw\_g\_OVH (3).png]
+			]
+			[d0001\_o\_blw\_n\_TDN44
+				[d0001\_o\_blw\_n\_TDN44 (1).png]
+				[d0001\_o\_blw\_n\_TDN44 (2).png]
+				[d0001\_o\_blw\_n\_TDN44 (3).png]
+			]
+		]
+	]
+\end{forest}
+
+\subsection{Training and testing data}
+
+\begin{fullwidth}
+	After splitting the top and bottom side of the rooftiles we will split the data into training and testing but there is a small catch: we want to keep the proportion of the different rooftiles within each set.
+	To do this we will use stratified splitting.
+	This is so we don't dont end up with a lot of one type of rooftile and a lot less of another type in either training or testing set. 
+	A training ratio of 70\% will be used as default ratio. We will use \verb|train_test_split| from Python's library \verb|sklearn| for splitting into training and testing.
+\end{fullwidth}
+
+\sidenote{By doing stratified splitting, we end up with the following folderstructure:}
+
+\begin{forest}
+    for tree={
+        font=\ttfamily\scriptsize,
+        grow'=0,
+        child anchor=west,
+        parent anchor=south,
+        anchor=west,
+        calign=first,
+        edge path={
+            \noexpand\path [draw, \forestoption{edge}]
+            (!u.south west) +(7.5pt,0) |- node[fill,inner sep=1.25pt] {} (.child anchor)\forestoption{edge label};
+        },
+        before typesetting nodes={
+            if n=1
+            {insert before={[,phantom]}}
+            {}
+        },
+        fit=band,
+        before computing xy={l=15pt},
+        s sep=2pt, % Adjust vertical spacing
+    },
+	scale=0.1,
+    [dataset
+        [test
+            [b
+                [d0000\_b\_blw\_g\_OVH
+                    [d0000\_b\_blw\_g\_OVH (1).png]
+                    [d0000\_b\_blw\_g\_OVH (2).png]
+                ]
+                [d0001\_b\_blw\_n\_TDN44
+                    [d0001\_b\_blw\_n\_TDN44 (1).png]
+                    [d0001\_b\_blw\_n\_TDN44 (2).png]
+                ]
+            ]
+            [o
+                [d0000\_o\_blw\_g\_OVH
+                    [d0000\_o\_blw\_g\_OVH (1).png]
+                    [d0000\_o\_blw\_g\_OVH (2).png]
+                ]
+                [d0001\_o\_blw\_n\_TDN44
+                    [d0001\_o\_blw\_n\_TDN44 (1).png]
+                    [d0001\_o\_blw\_n\_TDN44 (2).png]
+                ]
+            ]
+        ]
+        [train
+            [b
+                [d0000\_b\_blw\_g\_OVH
+                    [d0000\_b\_blw\_g\_OVH (1).png]
+                    [d0000\_b\_blw\_g\_OVH (2).png]
+                ]
+                [d0001\_b\_blw\_n\_TDN44
+                    [d0001\_b\_blw\_n\_TDN44 (1).png]
+                    [d0001\_b\_blw\_n\_TDN44 (2).png]
+                ]
+            ]
+            [o
+                [d0000\_o\_blw\_g\_OVH
+                    [d0000\_o\_blw\_g\_OVH (1).png]
+                    [d0000\_o\_blw\_g\_OVH (2).png]
+                ]
+                [d0001\_o\_blw\_n\_TDN44
+                    [d0001\_o\_blw\_n\_TDN44 (1).png]
+                    [d0001\_o\_blw\_n\_TDN44 (2).png]
+                ]
+            ]
+        ]
+    ]
+\end{forest}
+
+\subsubsection{Training}
+
+\subsubsection{Testing}
 
 \newpage
 \subsection{Image resizing}
@@ -84,16 +228,6 @@ To explain how the resizing is done, consider the following example: a 1800 by 1
 % \end{marginfigure}
 
 \newpage
-\subsection{Splitting data}
-
-\begin{fullwidth}
-	Stratified splitting will be done to preserve the amount of images per rooftile.
-\end{fullwidth}
-\subsubsection{Training}
-
-\subsubsection{Testing}
-
-
 \subsection{Data augmentation}
 A few augmentation techniques are applied to artificially increase the dataset and training data. 
 It's important to realize that this is just done for training and not testing, 
