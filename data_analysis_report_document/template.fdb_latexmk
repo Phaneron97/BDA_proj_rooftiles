@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber template"] 1710279245 "template.bcf" "template.bbl" "template" 1710279263 0
+["biber template"] 1710282766 "template.bcf" "template.bbl" "template" 1710282810 0
   "./sample.bib" 1710172090 442 bb4d4040f48aec7c0bc550ef99e007d4 ""
-  "template.bcf" 1710279262 107347 362b9c05c9ba23dd36e2525db27a9c08 "pdflatex"
+  "template.bcf" 1710282809 107347 362b9c05c9ba23dd36e2525db27a9c08 "pdflatex"
   (generated)
   "template.bbl"
   "template.blg"
   (rewritten before read)
-["pdflatex"] 1710279256 "d:/School/BDA_Minor/BDA_proj_rooftiles/data_analysis_report_document/template.tex" "template.pdf" "template" 1710279263 0
+["pdflatex"] 1710282803 "d:/School/BDA_Minor/BDA_proj_rooftiles/data_analysis_report_document/template.tex" "template.pdf" "template" 1710282810 0
   "C:/Users/Christian/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1710274793 184951 913ea2c92fbb4398adf2cfe8f4960472 ""
   "C:/Users/Christian/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1697192977 24177114 f8fe2491df32d66c96f1698261ee6bb8 ""
   "C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/plex/plx_3xjvyq.enc" 1696117325 3162 12cbce33a099ce909baa11daed041a1a ""
@@ -214,8 +214,6 @@
   "C:/Users/Christian/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys.sty" 1673775190 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "C:/Users/Christian/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty" 1673775190 325 f9f16d12354225b7dd52a3321f085955 ""
   "C:/Users/Christian/AppData/Local/Programs/MiKTeX/tex/latex/pgfopts/pgfopts.sty" 1404983438 5540 d5c60cf09c59da351aa4023ed084e4eb ""
-  "C:/Users/Christian/AppData/Local/Programs/MiKTeX/tex/latex/plex/plex-mono.sty" 1696118273 3803 b25f954177501d31648144b2b1a45fb9 ""
-  "C:/Users/Christian/AppData/Local/Programs/MiKTeX/tex/latex/plex/plex-serif.sty" 1696118361 4081 db2b61ce9cdb9498c3dbecdb2bd9c211 ""
   "C:/Users/Christian/AppData/Local/Programs/MiKTeX/tex/latex/plex/t1ibmplexmono-tlf.fd" 1696117508 5430 1896090c2727be227aac08f216bfd52b ""
   "C:/Users/Christian/AppData/Local/Programs/MiKTeX/tex/latex/plex/t1ibmplexsans-tlf.fd" 1696117423 10285 368ae4139e466405411d9346e5555437 ""
   "C:/Users/Christian/AppData/Local/Programs/MiKTeX/tex/latex/plex/ts1ibmplexsans-tlf.fd" 1696117423 10407 ef73a0c6c414edc91ea3f6b1df2079f8 ""
@@ -239,7 +237,7 @@
   "C:/Users/Christian/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/svgnam.def" 1656236890 4704 af34fa7e0b1716f97116d8a28100bb35 ""
   "C:/Users/Christian/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/Christian/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "CSSullivanBusinessReport.cls" 1710275036 17324 cee9820a5924d858e8a4cb2edb1178cb ""
+  "CSSullivanBusinessReport.cls" 1710282795 17287 037e2c67772257b3e41cdd1775a1e94a ""
   "Images/aspect_ratio_result.png" 1710172090 22957 fc522a2b587e893b1cfbd52734ea2d32 ""
   "Images/average_color_histogram.png" 1710172090 64194 58971b359ba7170ab11394141206b0cb ""
   "Images/average_color_histogram_overlap_full.png" 1710172090 57992 9e49c23843c349a383b3be545684e87d ""
@@ -258,15 +256,17 @@
   "Images/square_dataset/square3.JPG" 1710172090 204400 47f6c888094138451e48e9bcd506c590 ""
   "Images/vertical_flip.jpg" 1710260216 455654 963391df10bd231c9d1128926934a80e ""
   "d:/School/BDA_Minor/BDA_proj_rooftiles/data_analysis_report_document/template.tex" 1710172090 6117 0dbb4425f7535793d827a320ad1edf90 ""
-  "hoofdstukken/changes.tex" 1710279237 19385 edf2a21df3d79ce279f427affdf9c708 ""
-  "hoofdstukken/visualizations.tex" 1710274330 5764 db2ead55697cdeb7e8715924b2b7ba75 ""
+  "hoofdstukken/changes.tex" 1710282763 19385 edf2a21df3d79ce279f427affdf9c708 ""
+  "hoofdstukken/visualizations.tex" 1710282717 3781 b6225150cd94549a8e884f1b568aff08 ""
+  "plex-mono.sty" 1710282717 3922 b25f954177501d31648144b2b1a45fb9 ""
   "plex-sans.sty" 1710172090 6771 6313dacabba92b1026f156aa00bc8b29 ""
-  "template.aux" 1710279262 7426 7d284aa6c761c11c07540b0ae82d2a32 "pdflatex"
-  "template.bbl" 1710279248 0 d41d8cd98f00b204e9800998ecf8427e "biber template"
-  "template.out" 1710279262 2559 373941983fba5d8aef981565869fb345 "pdflatex"
-  "template.run.xml" 1710279262 2329 dd0b28ad5248dccc56c9d3651d0f9aad "pdflatex"
+  "plex-serif.sty" 1710282717 4203 db2b61ce9cdb9498c3dbecdb2bd9c211 ""
+  "template.aux" 1710282809 7317 a7f11e79fc4f733f1232f0ea0ac605fa "pdflatex"
+  "template.bbl" 1710282769 0 d41d8cd98f00b204e9800998ecf8427e "biber template"
+  "template.out" 1710282809 2457 c68051a0d268240aac29bcb1cc7e26db "pdflatex"
+  "template.run.xml" 1710282809 2329 dd0b28ad5248dccc56c9d3651d0f9aad "pdflatex"
   "template.tex" 1710172090 6117 0dbb4425f7535793d827a320ad1edf90 ""
-  "template.toc" 1710279262 1816 c3617604a6f3c640842e63b3c67ad0ef "pdflatex"
+  "template.toc" 1710282809 1748 e23c469e66390bbc65c531163734bb03 "pdflatex"
   (generated)
   "template.aux"
   "template.bcf"

@@ -36,8 +36,6 @@
 %	REQUIRED PACKAGES AND MISC CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-
-
 \usepackage{graphicx} % Required for including images
 \usepackage{subcaption} % for using subfigures
 \graphicspath{{Images/}{./}} % Specifies where to look for included images (trailing slash required)
@@ -358,5 +356,4 @@
 \newcommand{\reportdate}[1]{\renewcommand{\reportdate}{#1}}
 
 \newcommand{\rightheadercontent}[1]{\renewcommand{\rightheadercontent}{#1}}
-
-\usepackage{forest} % for making folder structures
+\usepackage{forest}

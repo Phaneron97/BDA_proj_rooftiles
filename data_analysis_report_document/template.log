@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.13)  12 MAR 2024 22:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.13)  12 MAR 2024 23:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -202,7 +202,7 @@ LaTeX Info: Redefining \ulcshape on input line 41.
 LaTeX Info: Redefining \textsw on input line 47.
 LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
-)) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/plex\plex-serif.sty
+)) (plex-serif.sty
 Package: plex-serif 2023/09/30 (Bob Tennent) Style file for IBMPlexSerif fonts
  (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -214,7 +214,7 @@ LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 112.
 )
 LaTeX Info: Redefining \textsu on input line 80.
-) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/plex\plex-mono.sty
+) (plex-mono.sty
 Package: plex-mono 2023/09/30 (Bob Tennent) Style file for IBMPlexMono fonts
  (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -638,7 +638,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip105
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 332.
+Package hyperref Info: Option `colorlinks' set `true' on input line 330.
  (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count424
 \lst@gtempboxa=\box60
@@ -726,8 +726,7 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 \pgfmath@stack@operation=\toks39
 ) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count440
-))
-(C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+)) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen262
 \pgf@picmaxx=\dimen263
@@ -1113,7 +1112,7 @@ Package hyperref Info: Link coloring ON on input line 45.
 
 
 pdfTeX warning: pdflatex (file ./Images/inhollandlogo.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Images/inhollandlogo.pdf, id=66, 582.10222pt x 421.52231pt>
+<Images/inhollandlogo.pdf, id=62, 582.10222pt x 421.52231pt>
 File: Images/inhollandlogo.pdf Graphic file (type pdf)
 <use Images/inhollandlogo.pdf>
 Package pdftex.def Info: Images/inhollandlogo.pdf  used on input line 56.
@@ -1165,54 +1164,29 @@ LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/sb/n' will be
 \openout7 = `template.toc'.
 
  [2] (hoofdstukken/visualizations.tex
-LaTeX Font Info:    Trying to load font information for TS1+IBMPlexSans-TLF on input line 8.
- (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/plex\ts1ibmplexsans-tlf.fd
-File: TS1IBMPlexSans-TLF.fd 2023/09/30 (autoinst) Font definitions for TS1/IBMPlexSans-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/IBMPlexSans-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 8.
-LaTeX Font Info:    Trying to load font information for T1+IBMPlexMono-TLF on input line 8.
- (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/plex\t1ibmplexmono-tlf.fd
-File: T1IBMPlexMono-TLF.fd 2023/09/30 (autoinst) Font definitions for T1/IBMPlexMono-TLF.
-)
-LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 8.
-File: Images/inhollandlogo.pdf Graphic file (type pdf)
-<use Images/inhollandlogo.pdf>
-Package pdftex.def Info: Images/inhollandlogo.pdf  used on input line 39.
-(pdftex.def)             Requested size: 56.9055pt x 41.20277pt.
-
-
-Package fancyhdr Warning: \headheight is too small (28.45274pt): 
-(fancyhdr)                Make it at least 45.55281pt, for example:
-(fancyhdr)                \setlength{\headheight}{45.55281pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
-
-[3{C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/plex/plx_3xjvyq.enc}{C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/plex/plx_i3ioen.enc}]
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 44.
+(Font)              scaled to size 14.4pt on input line 5.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 46.
+(Font)              scaled to size 9.0pt on input line 7.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 46.
-<Images/average_color_histogram.png, id=120, 867.24pt x 289.08pt>
+(Font)              scaled to size 10.0pt on input line 7.
+<Images/average_color_histogram.png, id=106, 867.24pt x 289.08pt>
 File: Images/average_color_histogram.png Graphic file (type png)
 <use Images/average_color_histogram.png>
-Package pdftex.def Info: Images/average_color_histogram.png  used on input line 49.
+Package pdftex.def Info: Images/average_color_histogram.png  used on input line 10.
 (pdftex.def)             Requested size: 334.3199pt x 111.4395pt.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 50.
+(Font)              scaled to size 12.0pt on input line 11.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 50.
-<Images/average_color_histogram_overlap_full.png, id=122, 578.16pt x 361.35pt>
+(Font)              scaled to size 10.95pt on input line 11.
+<Images/average_color_histogram_overlap_full.png, id=108, 578.16pt x 361.35pt>
 File: Images/average_color_histogram_overlap_full.png Graphic file (type png)
 <use Images/average_color_histogram_overlap_full.png>
-Package pdftex.def Info: Images/average_color_histogram_overlap_full.png  used on input line 55.
+Package pdftex.def Info: Images/average_color_histogram_overlap_full.png  used on input line 16.
 (pdftex.def)             Requested size: 334.3199pt x 208.94907pt.
 File: Images/inhollandlogo.pdf Graphic file (type pdf)
 <use Images/inhollandlogo.pdf>
-Package pdftex.def Info: Images/inhollandlogo.pdf  used on input line 60.
+Package pdftex.def Info: Images/inhollandlogo.pdf  used on input line 21.
 (pdftex.def)             Requested size: 56.9055pt x 41.20277pt.
 
 
@@ -1222,15 +1196,15 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
 
-[4 <./Images/average_color_histogram.png> <./Images/average_color_histogram_overlap_full.png>]
-<Images/aspect_ratio_result.png, id=133, 722.7pt x 433.62pt>
+[3 <./Images/average_color_histogram.png> <./Images/average_color_histogram_overlap_full.png>]
+<Images/aspect_ratio_result.png, id=120, 722.7pt x 433.62pt>
 File: Images/aspect_ratio_result.png Graphic file (type png)
 <use Images/aspect_ratio_result.png>
-Package pdftex.def Info: Images/aspect_ratio_result.png  used on input line 65.
+Package pdftex.def Info: Images/aspect_ratio_result.png  used on input line 26.
 (pdftex.def)             Requested size: 334.3199pt x 200.59242pt.
 File: Images/inhollandlogo.pdf Graphic file (type pdf)
 <use Images/inhollandlogo.pdf>
-Package pdftex.def Info: Images/inhollandlogo.pdf  used on input line 70.
+Package pdftex.def Info: Images/inhollandlogo.pdf  used on input line 31.
 (pdftex.def)             Requested size: 56.9055pt x 41.20277pt.
 
 
@@ -1240,11 +1214,11 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
 
-[5 <./Images/aspect_ratio_result.png>]
-<Images/rescale_res_result.png, id=142, 867.24pt x 433.62pt>
+[4 <./Images/aspect_ratio_result.png>]
+<Images/rescale_res_result.png, id=129, 867.24pt x 433.62pt>
 File: Images/rescale_res_result.png Graphic file (type png)
 <use Images/rescale_res_result.png>
-Package pdftex.def Info: Images/rescale_res_result.png  used on input line 86.
+Package pdftex.def Info: Images/rescale_res_result.png  used on input line 47.
 (pdftex.def)             Requested size: 334.3199pt x 167.15924pt.
 )
 File: Images/inhollandlogo.pdf Graphic file (type pdf)
@@ -1259,8 +1233,8 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
 
-[6 <./Images/rescale_res_result.png>] (hoofdstukken/changes.tex
-<Images/grayscale_graph_histogram.png, id=152, 1850.112pt x 964.8045pt>
+[5 <./Images/rescale_res_result.png>] (hoofdstukken/changes.tex
+<Images/grayscale_graph_histogram.png, id=139, 1850.112pt x 964.8045pt>
 File: Images/grayscale_graph_histogram.png Graphic file (type png)
 <use Images/grayscale_graph_histogram.png>
 Package pdftex.def Info: Images/grayscale_graph_histogram.png  used on input line 18.
@@ -1277,16 +1251,16 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
 
-[7 <./Images/grayscale_graph_histogram.png>]
-Package marginnote Info: Margin note 8.1 is on absolute page 8 on input line 26.
+[6 <./Images/grayscale_graph_histogram.png>]
+Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 26.
 Package marginnote Info: right page because not two side mode on input line 26.
 Package marginnote Info: xpos seems to be 62.8055pt on input line 26.
-<Images/normalization_conversion_before_after.png, id=162, 1084.05pt x 361.35pt>
+<Images/normalization_conversion_before_after.png, id=148, 1084.05pt x 361.35pt>
 File: Images/normalization_conversion_before_after.png Graphic file (type png)
 <use Images/normalization_conversion_before_after.png>
 Package pdftex.def Info: Images/normalization_conversion_before_after.png  used on input line 28.
 (pdftex.def)             Requested size: 334.3199pt x 111.4384pt.
-<Images/clahe_graph_histogram.png, id=163, 1850.112pt x 964.8045pt>
+<Images/clahe_graph_histogram.png, id=149, 1850.112pt x 964.8045pt>
 File: Images/clahe_graph_histogram.png Graphic file (type png)
 <use Images/clahe_graph_histogram.png>
 Package pdftex.def Info: Images/clahe_graph_histogram.png  used on input line 39.
@@ -1303,7 +1277,20 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
 
-[8 <./Images/normalization_conversion_before_after.png> <./Images/clahe_graph_histogram.png>]
+[7 <./Images/normalization_conversion_before_after.png> <./Images/clahe_graph_histogram.png>]
+LaTeX Font Info:    Trying to load font information for TS1+IBMPlexSans-TLF on input line 47.
+ (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/plex\ts1ibmplexsans-tlf.fd
+File: TS1IBMPlexSans-TLF.fd 2023/09/30 (autoinst) Font definitions for TS1/IBMPlexSans-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/IBMPlexSans-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 47.
+LaTeX Font Info:    Trying to load font information for T1+IBMPlexMono-TLF on input line 101.
+ (C:\Users\Christian\AppData\Local\Programs\MiKTeX\tex/latex/plex\t1ibmplexmono-tlf.fd
+File: T1IBMPlexMono-TLF.fd 2023/09/30 (autoinst) Font definitions for T1/IBMPlexMono-TLF.
+)
+LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 101.
+
 Overfull \hbox (35.45392pt too wide) in paragraph at lines 106--110
 \T1/IBMPlexSans-TLF/m/n/12 test-ing set. A train-ing ra-tio of 70% will be used as de-fault ra-tio. We will use [][]\T1/IBMPlexMono-TLF/m/n/12 train_test_split 
  []
@@ -1319,7 +1306,7 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
 
-[9]
+[8{C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/plex/plx_3xjvyq.enc}{C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/plex/plx_i3ioen.enc}]
 LaTeX Font Info:    Font shape `T1/IBMPlexMono-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 182.
 File: Images/inhollandlogo.pdf Graphic file (type pdf)
@@ -1334,7 +1321,7 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
 
-[10]
+[9]
 File: Images/inhollandlogo.pdf Graphic file (type pdf)
 <use Images/inhollandlogo.pdf>
 Package pdftex.def Info: Images/inhollandlogo.pdf  used on input line 188.
@@ -1347,43 +1334,43 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
 
-[11]
-<Images/square_dataset/square0.JPG, id=194, 642.4pt x 642.4pt>
+[10]
+<Images/square_dataset/square0.JPG, id=183, 642.4pt x 642.4pt>
 File: Images/square_dataset/square0.JPG Graphic file (type jpg)
 <use Images/square_dataset/square0.JPG>
 Package pdftex.def Info: Images/square_dataset/square0.JPG  used on input line 192.
 (pdftex.def)             Requested size: 120.92421pt x 120.92021pt.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
 (Font)              scaled to size 8.0pt on input line 193.
-<Images/square_dataset/square1.JPG, id=195, 642.4pt x 642.4pt>
+<Images/square_dataset/square1.JPG, id=184, 642.4pt x 642.4pt>
 File: Images/square_dataset/square1.JPG Graphic file (type jpg)
 <use Images/square_dataset/square1.JPG>
 Package pdftex.def Info: Images/square_dataset/square1.JPG  used on input line 199.
 (pdftex.def)             Requested size: 120.92421pt x 120.92021pt.
 
 
-LaTeX Warning: Marginpar on page 12 moved.
+LaTeX Warning: Marginpar on page 11 moved.
 
 
 Overfull \hbox (3.62387pt too wide) in paragraph at lines 203--205
 \T1/IBMPlexSans-TLF/m/n/12 with a ran-dom color around the im-age to fill up the blank space 
  []
 
-<Images/square_dataset/square2.JPG, id=196, 642.4pt x 642.4pt>
+<Images/square_dataset/square2.JPG, id=185, 642.4pt x 642.4pt>
 File: Images/square_dataset/square2.JPG Graphic file (type jpg)
 <use Images/square_dataset/square2.JPG>
 Package pdftex.def Info: Images/square_dataset/square2.JPG  used on input line 208.
 (pdftex.def)             Requested size: 120.92421pt x 120.92021pt.
 
-LaTeX Warning: Marginpar on page 12 moved.
+LaTeX Warning: Marginpar on page 11 moved.
 
-<Images/square_dataset/square3.JPG, id=197, 642.4pt x 642.4pt>
+<Images/square_dataset/square3.JPG, id=186, 642.4pt x 642.4pt>
 File: Images/square_dataset/square3.JPG Graphic file (type jpg)
 <use Images/square_dataset/square3.JPG>
 Package pdftex.def Info: Images/square_dataset/square3.JPG  used on input line 218.
 (pdftex.def)             Requested size: 120.92421pt x 120.92021pt.
 
-LaTeX Warning: Marginpar on page 12 moved.
+LaTeX Warning: Marginpar on page 11 moved.
 
 File: Images/inhollandlogo.pdf Graphic file (type pdf)
 <use Images/inhollandlogo.pdf>
@@ -1396,15 +1383,15 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
 
-[12 <./Images/square_dataset/square0.JPG> <./Images/square_dataset/square1.JPG> <./Images/square_dataset/square2.JPG> <./Images/square_dataset/square3.JPG>]
-<Images/original.jpg, id=207, 1228.59pt x 921.4425pt>
+[11 <./Images/square_dataset/square0.JPG> <./Images/square_dataset/square1.JPG> <./Images/square_dataset/square2.JPG> <./Images/square_dataset/square3.JPG>]
+<Images/original.jpg, id=196, 1228.59pt x 921.4425pt>
 File: Images/original.jpg Graphic file (type jpg)
 <use Images/original.jpg>
 Package pdftex.def Info: Images/original.jpg  used on input line 245.
 (pdftex.def)             Requested size: 150.44293pt x 112.832pt.
 LaTeX Font Info:    Font shape `T1/IBMPlexSans-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 246.
-<Images/horizontal_flip.jpg, id=208, 1228.59pt x 921.4425pt>
+<Images/horizontal_flip.jpg, id=197, 1228.59pt x 921.4425pt>
 File: Images/horizontal_flip.jpg Graphic file (type jpg)
 <use Images/horizontal_flip.jpg>
 Package pdftex.def Info: Images/horizontal_flip.jpg  used on input line 251.
@@ -1413,7 +1400,7 @@ File: Images/original.jpg Graphic file (type jpg)
 <use Images/original.jpg>
 Package pdftex.def Info: Images/original.jpg  used on input line 265.
 (pdftex.def)             Requested size: 150.44293pt x 112.832pt.
-<Images/vertical_flip.jpg, id=209, 1228.59pt x 921.4425pt>
+<Images/vertical_flip.jpg, id=198, 1228.59pt x 921.4425pt>
 File: Images/vertical_flip.jpg Graphic file (type jpg)
 <use Images/vertical_flip.jpg>
 Package pdftex.def Info: Images/vertical_flip.jpg  used on input line 271.
@@ -1430,12 +1417,12 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
 
-[13 <./Images/original.jpg> <./Images/horizontal_flip.jpg> <./Images/vertical_flip.jpg>]
+[12 <./Images/original.jpg> <./Images/horizontal_flip.jpg> <./Images/vertical_flip.jpg>]
 File: Images/original.jpg Graphic file (type jpg)
 <use Images/original.jpg>
 Package pdftex.def Info: Images/original.jpg  used on input line 287.
 (pdftex.def)             Requested size: 150.44293pt x 112.832pt.
-<Images/random_rotation.jpg, id=222, 1228.59pt x 921.4425pt>
+<Images/random_rotation.jpg, id=210, 1228.59pt x 921.4425pt>
 File: Images/random_rotation.jpg Graphic file (type jpg)
 <use Images/random_rotation.jpg>
 Package pdftex.def Info: Images/random_rotation.jpg  used on input line 293.
@@ -1444,7 +1431,7 @@ File: Images/original.jpg Graphic file (type jpg)
 <use Images/original.jpg>
 Package pdftex.def Info: Images/original.jpg  used on input line 308.
 (pdftex.def)             Requested size: 150.44293pt x 112.832pt.
-<Images/random_zoom.jpg, id=223, 1228.59pt x 921.4425pt>
+<Images/random_zoom.jpg, id=211, 1228.59pt x 921.4425pt>
 File: Images/random_zoom.jpg Graphic file (type jpg)
 <use Images/random_zoom.jpg>
 Package pdftex.def Info: Images/random_zoom.jpg  used on input line 314.
@@ -1462,7 +1449,7 @@ Package fancyhdr Warning: \headheight is too small (28.45274pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-17.10007pt}.
 
-[14 <./Images/random_rotation.jpg> <./Images/random_zoom.jpg>] 
+[13 <./Images/random_rotation.jpg> <./Images/random_zoom.jpg>] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (template.aux)
  ***********
@@ -1474,23 +1461,23 @@ L3 programming layer <2023-10-10>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 373941983FBA5D8AEF981565869FB345;2559.
+(rerunfilecheck)             Checksum: C68051A0D268240AAC29BCB1CC7E26DB;2457.
 Package logreq Info: Writing requests to 'template.run.xml'.
 \openout1 = `template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46714 strings out of 474823
- 1000017 string characters out of 5749067
+ 46711 strings out of 474823
+ 999872 string characters out of 5749067
  1956043 words of memory out of 5000000
- 67978 multiletter control sequences out of 15000+600000
+ 67977 multiletter control sequences out of 15000+600000
  780043 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  150i,15n,142p,1653b,4165s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxMono.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-Bold.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-BoldItalic.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans-SmBld.pfb><C:/Users/Christian/AppData/Local/Programs/MiKTeX/fonts/type1/ibm/plex/plxSans.pfb>
-Output written on template.pdf (14 pages, 6132086 bytes).
+Output written on template.pdf (13 pages, 6126484 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 210 words of extra memory for PDF output out of 10000 (max. 10000000)
 
