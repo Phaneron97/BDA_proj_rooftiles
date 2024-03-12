@@ -12,7 +12,7 @@ type fotos : volledige dakpannen, verschillende hoeken, verschillende opstelling
 4. normalization_converter.py: Does the following:
     * Normalizes all images within dataset to remove noise and glare from camera.
     * Picks 3 random images and shows the colorchannels in histogram
-5. CLAHE_converter.py: DDoes the following:
+5. CLAHE_converter.py: Does the following:
     * Applies CLAHE (Contract Limited Adaptive Histogram Equalization) to all images within dataset.
     * Picks 3 random images and shows the colorchannels in histogram
 6. resize_all_keep_ratio.py: This does multiple things: converts images to 640 by 640 by adding a border around each image depending on the original aspect ratio

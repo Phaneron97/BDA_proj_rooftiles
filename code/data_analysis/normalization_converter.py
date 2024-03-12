@@ -13,6 +13,15 @@ def normalize_image(img, alpha=0, beta=200, normType=cv2.NORM_MINMAX):
     normalized_img = cv2.normalize(img, None, alpha, beta, normType)
     return normalized_img
 
+def normalize_all_images_in_folder(folder_path):
+    for root, dirs, files in os.walk(folder_path):
+        for file in files:
+            if file.lower().endswith('.png'):
+                input_path = os.path.join(root, file)
+                img = cv2.imread(input_path)
+                normalized_img = normalize_image(img)
+                cv2.imwrite(input_path, normalized_img)
+
 def plot_all_images_with_histogram(imgs):
     # Select 3 random images
     sample_images = random.sample(range(len(imgs)), 3)
