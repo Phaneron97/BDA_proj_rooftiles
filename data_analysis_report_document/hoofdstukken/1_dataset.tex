@@ -1,0 +1,50 @@
+\section{The dataset}
+\begin{fullwidth}
+	The dataset we will be discussing in this report is an image based dataset from our client Tilmann Köster. 
+	In the dataset, which he made himself, is populated with around 7800 images of rooftile. 
+	The dataset has both front and back images of all rooftiles in roughly equal amounts. 
+	The dataset is already annotated. The annotations are documented by the client and given to us. 
+
+	\begin{itemize}
+		\item All rooftiles are within their own folder called (for example) d0000\_b\_blw\_g\_OVH.
+		\item \verb|d0000| is the number of the rooftile, it is assumed by the client that no more than 9999 different kinds of rooftiles will ever be included.
+		\item \verb|b| is means the side (in Dutch) of the rooftile. \verb|b| is the topside, \verb|o| is the bottomside.
+		\item \verb|blw| is the colour code of the rooftile. See table \ref{tab:abbr_colours} for all possible options.
+		\item \verb|g| or \verb|n| means gebruikt (used) or nieuw (new).
+		\item \verb|OVH| is the abbreviation of the name of the rooftile. See table \ref{tab:abbr_rooftile_names} for all possible names.
+	\end{itemize}
+\end{fullwidth}
+
+\begin{table}[H]
+    \begin{tabular}{lll}
+        Abbr.        & NL         & EN                  \\
+        blw          & Blauw      & blue                \\
+        nrd          & natuurrood & nature red          \\
+        ord          & oranjerood & orange red          \\
+        mzv          & matzwart   & vitrified mattblack \\
+        zw           & zwart      & black               \\
+        rb           & rood bruin & Red Brown          
+    \end{tabular}
+    \caption{Abbreviations for colors}
+    \label{tab:abbr_colours}
+\end{table}
+
+\begin{table}[H]
+    \begin{tabular}{lll}
+        Abbr.        & Name \\
+        \verb|OVH|  & Opnieuw Verbeterde Holle \\
+        \verb|TDN44|    & Tuile de Nord 44 \\
+        \verb|VH|   & Verbeterde Holle  \\
+        \verb|NS|   & Nelskamp Sigma \\
+        \verb|OVHvario| & Opnieuw Verbeterde Holle vario \\
+        \verb|OVH200|   & Opnieuw Verbeterde Holle 200 \\
+        \verb|OH|   & Oude Holle \\
+        \verb|VHm6| & Verbeterde Holle Monier 6 \\
+        \verb|VHvOord|  & Verbeterde Holle van Oord \\
+        \verb|VHO&|  &  Verbeterde Holle O\&Z \\
+        \verb|NSSP| & Nelskamp S-Pfanne \\
+        \verb|RBBS| & RBB Sneldek
+    \end{tabular}
+    \caption{Abbreviation for rooftile names}
+    \label{tab:abbr_rooftile_names}
+\end{table}

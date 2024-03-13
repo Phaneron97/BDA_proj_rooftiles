@@ -356,4 +356,5 @@
 \newcommand{\reportdate}[1]{\renewcommand{\reportdate}{#1}}
 
 \newcommand{\rightheadercontent}[1]{\renewcommand{\rightheadercontent}{#1}}
-\usepackage{forest}
+\usepackage{forest} % Folder structure
+\usepackage{marginnote}
