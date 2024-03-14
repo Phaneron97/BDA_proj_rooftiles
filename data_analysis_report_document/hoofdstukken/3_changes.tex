@@ -1,9 +1,9 @@
 
 \section{Changes to Dataset} % Top level section
-We need to change some properties to prepare the dataset before feeding it to a model\dots
+\begin{fullwidth}We need to change some properties to prepare the dataset before feeding it to a model\dots\end{fullwidth}
 
 \subsection{Updates to resolution}
-As we mentioned earlier, we decreased the resolution of all images in the whole dataset to make it more manageable. 
+\begin{fullwidth}As we mentioned earlier, we decreased the resolution of all images in the whole dataset to make it more manageable. \end{fullwidth}
 See \ref{fig:rescale_res_result}.
 
 \subsection{File extension formatting}
@@ -182,9 +182,9 @@ We end up with the following folderstructure (Not that this does not include all
     ]
 \end{forest}
 
-\subsubsection{Training}
+% \subsubsection{Training}
 
-\subsubsection{Testing}
+% \subsubsection{Testing}
 
 \newpage
 \subsection{Image resizing}
@@ -230,74 +230,78 @@ To explain how the resizing is done, consider the following example: a 1800 by 1
 
 \newpage
 \subsection{Data augmentation}
+\begin{fullwidth}
 A few augmentation techniques are applied to artificially increase the dataset and training data. 
 It's important to realize that this is just done for training and not testing, 
 since testing requires the images to be as closely to the real world as possible. 
 The primary goal of data augmentation is to increase the diversity of the training dataset. 
 Below are a few simple techniques which can be applied to any image in the dataset:
+\end{fullwidth}
 
-\subsubsection{Flipping}
-\sidenote{Flipping is a common data augmentation technique that is used to flip an image.
-For flipping we horizontally flip the copied image of the original dataset image and use this to help training the model. }
+% \subsubsection{Flipping/Mirroring}
+% \sidenote{Flipping is a common data augmentation technique that is used to flip an image.
+% For flipping we horizontally flip the copied image of the original dataset image and use this to help training the model. }
+
+% \begin{figure}[H]
+% 	\centering
+% 	\begin{subfigure}{0.45\textwidth}
+% 		\includegraphics[width=\textwidth]{original.jpg}
+% 		\caption{Original}
+% 		\label{fig:original}
+% 	\end{subfigure}
+% 	\hfill
+% 	\begin{subfigure}{0.45\textwidth}
+% 		\includegraphics[width=\textwidth]{horizontal_flip.jpg}
+% 		\caption{After augmentation}
+% 		\label{fig:horizontal_flip}
+% 	\end{subfigure}
+% 	\label{fig:comparison}
+% \end{figure}
+
+\subsubsection{Rotation}
+\begin{fullwidth}
+	Wihin the realm of rotation, we will discuss multiple endpoints of a rotated image: $180^{\circ}$ and $90^{\circ}$. 
+	All rotations will be done clockwise. 
+\end{fullwidth}
+
+\sidenote{$180^{\circ}$ rotation. A copy of the original image will be generated just for the trainingset.}
 
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}{0.45\textwidth}
 		\includegraphics[width=\textwidth]{original.jpg}
-		\caption{Before}
-		\label{fig:original}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}{0.45\textwidth}
-		\includegraphics[width=\textwidth]{horizontal_flip.jpg}
-		\caption{After}
-		\label{fig:horizontal_flip}
-	\end{subfigure}
-	\label{fig:comparison}
-\end{figure}
-
-\subsubsection{Mirroring}
-\sidenote{Similar to flipping, but now done vertically. 
-A copy of the original image is being generated but the copy will be vertically flipped.}
-
-\begin{figure}[H]
-	\centering
-	\begin{subfigure}{0.45\textwidth}
-		\includegraphics[width=\textwidth]{original.jpg}
-		\caption{Before}
+		\caption{Original}
 		\label{fig:original}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\includegraphics[width=\textwidth]{vertical_flip.jpg}
-		\caption{After}
-		\label{fig:horizontal_flip}
+		\caption{After augmentation}
+		\label{fig:vertical_flip}
 	\end{subfigure}
 	\label{fig:comparison}
 \end{figure}
 
-\newpage
-
-\subsubsection{Rotating}
-\sidenote{A copy of the original image from the dataset gets rotated version.
-This is all about diversity for the deep learning process.  }
+% \newpage
+\sidenote{$90^{\circ}$ rotation. A copy of the original image will be generated just for the trainingset.}
 
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}{0.45\textwidth}
 		\includegraphics[width=\textwidth]{original.jpg}
-		\caption{Before}
+		\caption{Original}
 		\label{fig:original}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\includegraphics[width=\textwidth]{random_rotation.jpg}
-		\caption{After}
-		\label{fig:horizontal_flip}
+		\caption{After augmentation}
+		\label{fig:random_rotation}
 	\end{subfigure}
 	\label{fig:comparison}
 \end{figure}
 
+\newpage
 \subsubsection{Zoom}
 \sidenote{A copy of the original image from the dataset gets a zoomed version.
 For better diversity there will be version of images that are zoomed in. 
@@ -307,14 +311,14 @@ This like the other methods is to increase diversity.}
 	\centering
 	\begin{subfigure}{0.45\textwidth}
 		\includegraphics[width=\textwidth]{original.jpg}
-		\caption{Before}
+		\caption{Original}
 		\label{fig:original}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}{0.45\textwidth}
 		\includegraphics[width=\textwidth]{random_zoom.jpg}
-		\caption{After}
-		\label{fig:horizontal_flip}
+		\caption{After augmentation}
+		\label{fig:random_zoom}
 	\end{subfigure}
 	\label{fig:comparison}
 \end{figure}
