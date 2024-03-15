@@ -1,3 +1,4 @@
 # Ignore every file and folder within code/data_analysis/dataset/*
 # ALL datasets no matter how small or big should be placed here!
 code/data_analysis/dataset/*
+code/data_analysis/__pycache__/*
