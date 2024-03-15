@@ -25,8 +25,8 @@ def perform_image_augmentation(input_path, output_path):
         original_image = cv2.imread(image_file)
 
         # Define augmentation operations with configurable parameters
-        horizontal_flip_image = apply_horizontal_flip(original_image)
-        vertical_flip_image = apply_vertical_flip(original_image)
+        horizontal_flip_image = apply_mirroring(original_image, True)
+        vertical_flip_image = apply_mirroring(original_image, False)
         random_rotation_image = apply_random_rotation(original_image)
         random_zoom_image = apply_random_zoom(original_image)
 
@@ -50,12 +50,11 @@ def perform_image_augmentation(input_path, output_path):
         # Add the processed image hash to the set
         processed_images.add(image_hash)
 
-def apply_horizontal_flip(image):
-    flipped_image = cv2.flip(image, 1)  # Horizontal flip
-    return flipped_image
-
-def apply_vertical_flip(image):
-    flipped_image = cv2.flip(image, 0)  # Vertical flip
+def apply_mirroring(image, horizontal):
+    if horizontal:
+        flipped_image = cv2.flip(image, 1)  # Horizontal flip if True
+    else:
+        flipped_image = cv2.flip(image, 0)  # Vertical flip if False
     return flipped_image
 
 def apply_random_rotation(image, max_angle=270):
