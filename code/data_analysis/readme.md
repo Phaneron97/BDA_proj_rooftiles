@@ -17,5 +17,5 @@ type fotos : volledige dakpannen, verschillende hoeken, verschillende opstelling
     * Applies CLAHE (Contract Limited Adaptive Histogram Equalization) to all images within dataset.
     * Picks 3 random images and shows the colorchannels in histogram
 7. stratified_splitter.py: Stratified dataset splitting test and train (preserve amount of images per rooftile)
-8. **APPLY NLY ON TRAIN**: Aaugmentation.py: Makes a copy of the inputted image, one for each augmentation effect (3 effects)
+8. **APPLY ONLY ON TRAIN**: Augmentation.py: Makes a copy of the inputted image, one for each augmentation effect (3 effects)
 9. resize_all_keep_ratio.py: Converts images to 640 by 640 by adding a border around each image depending on the original aspect ratio
