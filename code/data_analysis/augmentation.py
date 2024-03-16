@@ -41,7 +41,7 @@ def perform_image_augmentation(input_path, output_path, horizontal_flip, vertica
 
         # Save each augmented image separately
         for i, augmented_image in enumerate(augmented_images):
-            output_file_path = os.path.join(output_subdirectory, f"{os.path.basename(image_file).split('.')[0]}_{i}.jpg")
+            output_file_path = os.path.join(output_subdirectory, f"{os.path.basename(image_file).split('.')[0]}_{i}.png")
             cv2.imwrite(output_file_path, augmented_image)
 
         # Add the processed image hash to the set
