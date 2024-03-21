@@ -3,3 +3,4 @@
 code/data_analysis/dataset/*
 code/data_analysis/__pycache__/*
 data_analysis_report_document/template.[^tex]*
+data_analysis_report_document/template.toc
