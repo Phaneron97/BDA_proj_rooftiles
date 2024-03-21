@@ -1,5 +1,9 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'template.blg'
-[172] biber-MSWIN64:340> INFO - === 
-[775] Utils.pm:410> ERROR - Cannot find control file 'template.bcf'! - Did latex run successfully on your .tex file before you ran biber?
-[775] Biber.pm:136> INFO - ERRORS: 1
+[188] biber-MSWIN64:340> INFO - === 
+[255] Biber.pm:419> INFO - Reading 'template.bcf'
+[448] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[475] bbl.pm:660> INFO - Writing 'template.bbl' with encoding 'UTF-8'
+[475] bbl.pm:763> INFO - Output to template.bbl
+[475] Biber.pm:131> WARN - The file 'template.bcf' does not contain any citations!
+[475] Biber.pm:133> INFO - WARNINGS: 1

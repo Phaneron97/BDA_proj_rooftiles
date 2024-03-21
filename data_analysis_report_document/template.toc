@@ -1,21 +1,21 @@
-\contentsline {section}{\numberline {1}Visualizations of Dataset}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}BGR channels of original dataset}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Visualizing aspect ratios}{4}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Visualizing resolutions}{5}{subsection.1.3}%
-\contentsline {section}{\numberline {2}Changes to Dataset}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Updates to resolution}{6}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}File extension formatting}{6}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Applying grayscale}{6}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Applying normalization}{7}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Applying CLAHE}{7}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Splitting data based on side of rooftile}{8}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Training and testing data}{9}{subsection.2.7}%
-\contentsline {subsubsection}{\numberline {2.7.1}Training}{10}{subsubsection.2.7.1}%
-\contentsline {subsubsection}{\numberline {2.7.2}Testing}{10}{subsubsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.8}Image resizing}{11}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Data augmentation}{12}{subsection.2.9}%
-\contentsline {subsubsection}{\numberline {2.9.1}Flipping}{12}{subsubsection.2.9.1}%
-\contentsline {subsubsection}{\numberline {2.9.2}Mirroring}{12}{subsubsection.2.9.2}%
-\contentsline {subsubsection}{\numberline {2.9.3}Rotating}{13}{subsubsection.2.9.3}%
-\contentsline {subsubsection}{\numberline {2.9.4}Zoom}{13}{subsubsection.2.9.4}%
+\contentsline {section}{\numberline {1}The dataset}{3}{section.1}%
+\contentsline {section}{\numberline {2}Visualizations of Dataset}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}BGR channels of original dataset}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Visualizing aspect ratios}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Visualizing resolutions}{6}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Changes to Dataset}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Updates to resolution}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}File extension formatting}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Applying grayscale}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Applying normalization}{8}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Applying CLAHE}{8}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Splitting data based on side of rooftile}{9}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Training and testing data}{10}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Image resizing}{11}{subsection.3.8}%
+\contentsline {subsubsection}{\numberline {3.8.1}Image aspect ratio}{11}{subsubsection.3.8.1}%
+\contentsline {subsubsection}{\numberline {3.8.2}Padding}{11}{subsubsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.9}Data augmentation}{12}{subsection.3.9}%
+\contentsline {subsubsection}{\numberline {3.9.1}Mirroring}{12}{subsubsection.3.9.1}%
+\contentsline {subsubsection}{\numberline {3.9.2}Rotation}{12}{subsubsection.3.9.2}%
+\contentsline {subsubsection}{\numberline {3.9.3}Zooming}{12}{subsubsection.3.9.3}%
 \contentsfinish 
