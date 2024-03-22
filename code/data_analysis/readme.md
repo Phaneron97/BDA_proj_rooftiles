@@ -13,7 +13,7 @@ type fotos : volledige dakpannen, verschillende hoeken, verschillende opstelling
 5. normalization_converter.py: Does the following:
     * Normalizes all images within dataset to remove noise and glare from camera.
     * Picks 3 random images and shows the colorchannels in histogram
-6. clahe_converter.py: Does the following:
+6. clahe_converter_small.py: **Don't use clahe_converter.py as it puts all images in 1 array which eats RAM like cake** Does the following:
     * Applies CLAHE (Contract Limited Adaptive Histogram Equalization) to all images within dataset.
     * Picks 3 random images and shows the colorchannels in histogram
 7. stratified_splitter.py: Stratified dataset splitting test and train (preserve amount of images per rooftile)
