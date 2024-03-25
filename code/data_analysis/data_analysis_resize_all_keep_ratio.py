@@ -109,7 +109,7 @@ def resize_keep_ratio_images_in_folder(input_folder, target_width, target_height
             new_height = int(original_height * scale_factor)
 
             # Create a canvas with the desired resolution
-            canvas = canvas_creator(target_height, target_width, color='black')
+            canvas = canvas_creator(target_height, target_width, color='random')
 
             # Calculate the position to paste the resized image on the canvas
             x_offset, y_offset = calc_offset(target_width, target_height, new_width, new_height)
@@ -123,9 +123,9 @@ def resize_keep_ratio_images_in_folder(input_folder, target_width, target_height
             # Save the resized image
             cv2.imwrite(image_path, canvas)
 
-"""
-main_folder_path = "dataset_rooftile_small/"
-out_folder_path = "dataset_rooftile_keep_ratio_640_random_back/"
+
+main_folder_path = "code\data_analysis\dataset\dataset"
+out_folder_path = "code\data_analysis\dataset\dataset"
 target_resolution = (640, 640)
-resize_keep_ratio_images_in_folder(read_folder_path = main_folder_path, target_size = target_resolution, write_folder_path = out_folder_path, make_horizental=False, background_color='random')
-"""
+# resize_keep_ratio_images_in_folder(read_folder_path = main_folder_path, target_size = target_resolution, write_folder_path = out_folder_path, make_horizental=False, background_color='random')
+resize_keep_ratio_images_in_folder(main_folder_path, 640, 640)

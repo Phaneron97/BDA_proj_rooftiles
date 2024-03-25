@@ -69,6 +69,9 @@ def convert_images_to_clahe(folder_path):
                 file_path = os.path.join(root, file)
                 img = cv2.imread(file_path)
 
+                # Print the current image being processed
+                print(f"Processing: {file_path}")
+
                 # Apply CLAHE processing
                 processed_img = apply_clahe(img)
                 processed_imgs.append(processed_img)
@@ -79,6 +82,7 @@ def convert_images_to_clahe(folder_path):
                 print(f"Processed: {file_path} -> {file_path}")
 
     return processed_imgs
+
 
 def get_images_in_folder(folder_path):
     image_files = []
@@ -91,8 +95,8 @@ def get_images_in_folder(folder_path):
     return image_files
 
 if __name__ == "__main__":
-    folder_path = "dataset_mini"
+    folder_path = "code\data_analysis\dataset\dataset\side_top\d0000_b_blw_g_OVH"
 
     imgs = get_images_in_folder(folder_path)
-    processed_imgs = convert_images_to_clahe(folder_path)
-    plot_all_images_with_histogram(imgs, processed_imgs)
+    processed_imgs = [apply_clahe(img) for img in imgs]
+    # plot_all_images_with_histogram(imgs, processed_imgs)
