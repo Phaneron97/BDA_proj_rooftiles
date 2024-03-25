@@ -8,7 +8,11 @@ See \ref{fig:rescale_res_result}.
 
 \subsection{File extension formatting}
 \begin{fullwidth}
-Most images were of .JPG format and some of .JPEG and .PNG format. To make all these images the same file format we chose to convert them all to the PNG format. 
+Most images were of \verb|.JPG| format and some of \verb|.JPEG| and \verb|.PNG| format. 
+To make all these images the same file format we choose to convert them all to the PNG format. 
+We will choose \verb|.PNG| because this file format stores details of the image as extra metadata per image. 
+The advantage of this is that the image doesn't lose details when augmenting it. 
+The disadvantage is that the size of the image increases.
 \end{fullwidth}
 
 \subsection{Applying grayscale}
@@ -33,7 +37,7 @@ Doing this removes some glare or extreme lighting effects caused by the camera l
 
 % \newpage
 \subsection{Applying CLAHE}
-\sidenote{`Last'ly, CLAHE is applied to bring out more details. 
+\sidenote{Lastly, CLAHE is applied to bring out more details. 
 CLAHE does this to dampen some of the higher pixel values and placing them below the average threshold, 
 so that details appear more sharp.}
 \begin{figure}[H] % [H] forces the figure to be output where it is defined in the code (it suppresses floating)
@@ -114,7 +118,7 @@ we want to keep the proportion of the different rooftiles within each set.
 To do this we will use stratified splitting.
 This is so we don't dont end up with a lot of one type of rooftile and a lot less of another type in either training or testing set.
 A training ratio of $70\%$ will be used as default ratio.
-We will use train\_test\_split from Python's library sklearn for splitting into training and testing.
+We will use "train\_test\_split" from Python's library "sklearn" for splitting into training and testing.
 By doing stratified splitting, we end up with the folderstructure you can see on the left side of the page.}
 
 % \sidenote[][]{}
@@ -194,37 +198,42 @@ By doing stratified splitting, we end up with the folderstructure you can see on
 
 \newpage
 \subsection{Image resizing}
-\subsubsection{Image aspect ratio}
+\subsubsection{Stretching images}
 Since most image recognition models require the images in the dataset to be of square format, and most images in our dataset are not square, we need to come up with a technique to make non-square images square. 
-To fix this, we could simply resize the non-square image by stretching it. But this might cause small details present in the rooftiles to be lost to the model. We need to come up with a different technique.
+To fix this, we could simply resize the non-square image by stretching it (see images \ref{stretched_1} and \ref{stretched_2}). But this might cause small details present in the rooftiles to be lost to the model. We need to come up with a different technique.
 \begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
 	\includegraphics[width=\linewidth]{square_dataset/square0.JPG}
-	\caption{An example of a resized image that is streched.}
+	\caption{An example of a resized image that is stretched.}
+	\label{stretched_1}
 \end{marginfigure}
 
 \begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
 	\includegraphics[width=\linewidth]{square_dataset/square1.JPG}
 	\caption{Another example of a stretched image.}
+	\label{stretched_2}
 \end{marginfigure}
 
 \subsubsection{Padding}
-To convert non-square images to square ones, we will add a padding to the images depending on the aspect ratio. The colour of the padding will be random to prevent biases.
+To convert non-square images to square ones, we will add a padding to the images depending on the aspect ratio (see images \ref{padding_1} and \ref{padding_2}). The colour of the padding will be random to prevent biases.
 
 \begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
 	\includegraphics[width=\linewidth]{square_dataset/square2.JPG}
 	\caption{Example of a resized image.}
+	\label{padding_1}
 \end{marginfigure}
 
+% \subsubsection{Padding images}
 Instead of stretching the image to the desired aspect ratio, we will add a black background to the non-square images but to make sure adding single colour background does not add bias to images, we will use a random colour for the background. 
 In the code, the target resolution is $640*640$ pixels. This resolution is required by most YOLO-models which could be used as the main algorithm classifying the rooftiles. 
 To the side are a few examples of images converted to a square aspect ratio.
 
-
 \begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
 	\includegraphics[width=\linewidth]{square_dataset/square3.JPG}
 	\caption{Example of a vertical image.}
+	\label{padding_2}
 \end{marginfigure}
 
+\subsubsection{Padding calculation}
 To explain how the resizing is done, 
 consider an image with a resolution of $1000*1200$ pixels. 
 To make this resolution into the desired $640*640$ image, 
