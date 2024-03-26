@@ -2,5 +2,8 @@
 # ALL datasets no matter how small or big should be placed here!
 code/data_analysis/dataset/*
 code/data_analysis/__pycache__/*
-data_analysis_report_document/template.[^tex]*
-data_analysis_report_document/template.toc
+documentation/data_analysis_report_document/template.[^tex]*
+documentation/data_analysis_report_document/template.toc
+
+documentation/model_report/template.[^tex]*
+documentation/model_report/template.toc
