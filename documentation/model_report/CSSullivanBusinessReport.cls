@@ -37,6 +37,7 @@
 %----------------------------------------------------------------------------------------
 
 \usepackage{graphicx} % Required for including images
+\usepackage{subcaption} % for using subfigures
 \graphicspath{{Images/}{./}} % Specifies where to look for included images (trailing slash required)
 
 \setlength{\parindent}{0pt} % Paragraph indentation
@@ -117,7 +118,7 @@
 
 \usepackage[sfdefault]{plex-sans} % Use IBM Plex Sans as the sans font and make it the default
 % \usepackage{plex-serif} % Use IBM Plex Serif as the serif font
-\usepackage{plex-mono} % Use IBM Plex Mono as the mono font
+% \usepackage{plex-mono} % Use IBM Plex Mono as the mono font
 
 \newcommand{\textel}[1]{{\fontseries{el}\selectfont #1}} % Define a simple command for using the ExtraLight weight
 \newcommand{\textl}[1]{{\fontseries{l}\selectfont #1}} % Define a simple command for using the Light weight
@@ -355,3 +356,5 @@
 \newcommand{\reportdate}[1]{\renewcommand{\reportdate}{#1}}
 
 \newcommand{\rightheadercontent}[1]{\renewcommand{\rightheadercontent}{#1}}
+\usepackage{forest} % Folder structure
+\usepackage{marginnote}
